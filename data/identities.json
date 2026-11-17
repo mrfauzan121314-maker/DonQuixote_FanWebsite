@@ -1,0 +1,2995 @@
+[
+ {
+  "id": "01-lcb",
+  "name": "LCB Sinner",
+  "quote": "Hath my time come? I am Don Quixote!",
+  "rarity": "0",
+  "world": "Dunia utama — Limbus Company",
+  "season": "Standar",
+  "releasedate": "2023.02.27",
+  "traits": [
+   "Limbus Company",
+   "LCB"
+  ],
+  "hp": "66",
+  "speed": "3~6",
+  "defmod": "-2",
+  "resist": {
+   "slash": "Normal",
+   "pierce": "Ineffective",
+   "blunt": "Fatal"
+  },
+  "skills": [
+   {
+    "slot": "S1",
+    "name": "Joust",
+    "type": "Pierce",
+    "sin": "Lust",
+    "coin": "1"
+   },
+   {
+    "slot": "S2",
+    "name": "Galloping Tilt",
+    "type": "Pierce",
+    "sin": "Envy",
+    "coin": "1"
+   },
+   {
+    "slot": "S3",
+    "name": "For Justice!",
+    "type": "Pierce",
+    "sin": "Gluttony",
+    "coin": "3"
+   },
+   {
+    "slot": "DEF",
+    "name": "Evade",
+    "type": "Evade",
+    "sin": "Lust",
+    "coin": "1"
+   }
+  ],
+  "passives": [
+   {
+    "name": "Righteous Retribution",
+    "text": "Skills deal +10% damage in a won clash."
+   },
+   {
+    "name": "Support",
+    "text": "1 ally with the most SP deals +10% Pierce damage."
+   }
+  ],
+  "voicelines": [
+   {
+    "occasion": "Identity Acquisition",
+    "english": "Hath my time come? I am Don Quixote!"
+   },
+   {
+    "occasion": "Morning Greeting",
+    "english": "Yaaawn… You must be one diligent laborer, Manager Esquire. How on earth do you manage to rouse yourself at this hour…?"
+   },
+   {
+    "occasion": "Afternoon Greeting",
+    "english": "What plans doth you have for a luncheon today? I, for one, eagerly anticipate Señorita Rodya’s choice of “fancy diner”."
+   },
+   {
+    "occasion": "Evening Greeting",
+    "english": "The stars shine bright tonight. Doth you see them as well, Manager Esquire?"
+   },
+   {
+    "occasion": "Chatter #1",
+    "english": "Manager Esquire, would you lend an eye to these? ‘Tis my trove of treasures, hehe… Some are limited editions which I fought valiantly to lay claim upon!"
+   },
+   {
+    "occasion": "Chatter #2",
+    "english": "My, cast your gaze upon those Fixers, sprinting forth to bring about justice! Dazzling, are they not?"
+   },
+   {
+    "occasion": "Chatter #3",
+    "english": "Pray tell, what Fixer is your favorite, Manager Esquire? Would you fancy a pin in their celebration to decorate your attire?"
+   },
+   {
+    "occasion": "Idle",
+    "english": "Manager Esquire!!!!! To where in the world hast thou disappeared!!!!!!!!!!!"
+   },
+   {
+    "occasion": "Deployment",
+    "english": "Onward, Rocinante!"
+   },
+   {
+    "occasion": "Stage Entry",
+    "english": "‘Tis my time to shine!"
+   },
+   {
+    "occasion": "Viewed in Battle",
+    "english": "Thine eyes were upon me!"
+   },
+   {
+    "occasion": "Commencing Attack",
+    "english": "To arms!"
+   },
+   {
+    "occasion": "Enemy Stagger",
+    "english": "Just as I foresaw!"
+   },
+   {
+    "occasion": "Staggered",
+    "english": "Ay!"
+   },
+   {
+    "occasion": "Enemy Killed",
+    "english": "A triumph!"
+   },
+   {
+    "occasion": "Ally Death",
+    "english": "Manager Esquire, I am counting on you to regain our ground!"
+   },
+   {
+    "occasion": "Check Passed",
+    "english": "I shan’t bask in glory! I know history will remember this deed, after all!"
+   },
+   {
+    "occasion": "Check Failed",
+    "english": "A true hero must needs be able to overcome hardship. We shall sally forth once more next time!"
+   },
+   {
+    "occasion": "Victory Cry",
+    "english": "Insooth! Justice always prevails!"
+   },
+   {
+    "occasion": "Extra Conditions Fulfilled",
+    "english": "I knew a great Fixer slumbered within me!!!! Mwahahahaha!!!!"
+   },
+   {
+    "occasion": "Defeat Wail",
+    "english": "Keugh… They shall… pay… for this…"
+   }
+  ],
+  "thumb": "assets/identities/01-lcb.webp",
+  "art": "assets/identities/large/01-lcb.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/LCB_Sinner_Don_Quixote",
+  "card": {
+   "order": 1,
+   "label": "MW · 01",
+   "group": "other",
+   "accent": "#ffef23",
+   "focus": "50%",
+   "world": "Limbus Company",
+   "name": "LCB Sinner",
+   "blurb": "Seragam LCB yang penuh merchandise Fixer, sepatu Rocinante, dan tombak SUEÑO IMPOSIBLE. Titik awal tempat semua Identity lain bercabang.",
+   "tags": [
+    "Lance",
+    "Rocinante"
+   ],
+   "sprite": false
+  }
+ },
+ {
+  "id": "02-cinq-south-director",
+  "name": "Cinq Assoc. South Section 5 Director",
+  "quote": "Aha! Art thou my partner in duel!?",
+  "rarity": "000",
+  "world": "World of the Cinq Association Southern Branch",
+  "season": "Standar",
+  "releasedate": "2023.07.20",
+  "traits": [
+   "Fixer",
+   "Cinq Association"
+  ],
+  "hp": "72",
+  "speed": "4~7",
+  "defmod": "-2",
+  "resist": {
+   "slash": "Fatal",
+   "pierce": "Ineff",
+   "blunt": "Normal"
+  },
+  "skills": [
+   {
+    "slot": "S1",
+    "name": "Remise",
+    "type": "Pierce",
+    "sin": "Lust",
+    "coin": "2"
+   },
+   {
+    "slot": "S2",
+    "name": "Flèche",
+    "type": "Pierce",
+    "sin": "Gloom",
+    "coin": "2"
+   },
+   {
+    "slot": "S3",
+    "name": "Salut!",
+    "type": "Pierce",
+    "sin": "Pride",
+    "coin": "2"
+   },
+   {
+    "slot": "DEF",
+    "name": "Défensive",
+    "type": "Evade",
+    "sin": "Pride",
+    "coin": "1"
+   }
+  ],
+  "passives": [
+   {
+    "name": "A Noble Duel",
+    "text": "If the Speed of all allies is faster than the Speed of all enemies, this unit deals more damage based on the Speed difference between itself and the slowest enemy (+6% for every point of Speed difference; max 30%)"
+   },
+   {
+    "name": "Dueling Request",
+    "text": "If the Speed of all allies is faster than the Speed of all enemies, the fastest ally deals more damage based on the Speed difference between itself and the slowest enemy (+3% for every point of Speed difference; max 15%)"
+   }
+  ],
+  "voicelines": [
+   {
+    "occasion": "Identity Acquisition",
+    "english": "Aha! Art thou my partner in duel?!"
+   },
+   {
+    "occasion": "Morning Greeting",
+    "english": "Good morrow! Hmhm, another bright day indeed. Let's see, mayhaps I shall go on a merry stroll?"
+   },
+   {
+    "occasion": "Afternoon Greeting",
+    "english": "Hm... Midday certainly brings out the crowd. Aha! See yonder! A brawl, perhaps?!"
+   },
+   {
+    "occasion": "Evening Greeting",
+    "english": "Hast thou supped yet? I have found thee a nice restaurant nearabouts! Their dinner menu features a rather delicious soufflé. Wilt thou accompany me?"
+   },
+   {
+    "occasion": "Chatter #1",
+    "english": "I mustn't dally! The city abounds with conflict, and many seek those that would take up arms in their place!"
+   },
+   {
+    "occasion": "Chatter #2",
+    "english": "Strolling through the streets and taking mine own mind off things is an important part of my profession!"
+   },
+   {
+    "occasion": "Chatter #3",
+    "english": "To throw down my gauntlet is a dignified and honorable declaration of mine intent to duel! 'Tis an indispensable part of a duel's etiquette."
+   },
+   {
+    "occasion": "Post-Uptie Chat 1",
+    "english": "Prithee, I cannot help but be perplexed… Wherefore do those struck by my gauntlet turn red with fury?\nWhat causeth them to fume, I wonder…? Perhaps their hearts are simply not fit for an honorable duel."
+   },
+   {
+    "occasion": "Post-Uptie Chat 2",
+    "english": "The station of a Director is no different from that of mine associates! In truth, I do not call them my subordinates, even.\nI have but a meager merit in experience, no more. Besides, perchance we may have a newcomer who surpasses my skill in combat!"
+   },
+   {
+    "occasion": "Idle",
+    "english": "(Hums)"
+   },
+   {
+    "occasion": "Uptying",
+    "english": "Aha! To be recognized is to be bestowed with honor! I thank thee!"
+   },
+   {
+    "occasion": "Deployment",
+    "english": "Aha, a dueling request!"
+   },
+   {
+    "occasion": "Stage Entry",
+    "english": "Perchance a narrow alleyway shall be to my benefit..."
+   },
+   {
+    "occasion": "Viewed in Battle",
+    "english": "'Tis ill-advised to speak to me whilst I fight a duel."
+   },
+   {
+    "occasion": "Commencing Attack",
+    "english": "Allez!"
+   },
+   {
+    "occasion": "Enemy Stagger",
+    "english": "Dost thou surrender?"
+   },
+   {
+    "occasion": "Staggered",
+    "english": "Tsk..."
+   },
+   {
+    "occasion": "Enemy Killed",
+    "english": "'Twas a duel most amusing!"
+   },
+   {
+    "occasion": "Death",
+    "english": "Aah... 'Twas... a shameful display..."
+   },
+   {
+    "occasion": "Check Passed",
+    "english": "Poetry in motion!"
+   },
+   {
+    "occasion": "Check Failed",
+    "english": "Ahh, this was... I beg forgiveness."
+   },
+   {
+    "occasion": "Victory Cry",
+    "english": "A fervorous duel! You lot were no slouches, yet... Hm, I eagerly await your next challenge."
+   },
+   {
+    "occasion": "Extra Conditions Fulfilled",
+    "english": "Wonderful! You were surpassed by my skill, though only by a little."
+   },
+   {
+    "occasion": "Defeat Wail",
+    "english": "Ugh... How disgraceful...!"
+   },
+   {
+    "occasion": "Using Skill 3 - Salut!",
+    "english": "Thou mayest rest."
+   }
+  ],
+  "thumb": "assets/identities/02-cinq-south-director.webp",
+  "art": "assets/identities/large/02-cinq-south-director.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/Cinq_Assoc._South_Section_5_Director_Don_Quixote",
+  "card": {
+   "order": 2,
+   "label": "MW · 02",
+   "group": "association",
+   "accent": "#7fa6ff",
+   "focus": "10%",
+   "world": "Cinq Assoc. · Southern Branch",
+   "name": "Cinq Assoc. South Section 5 Director",
+   "blurb": "Direktur Seksi 5 Cinq Association cabang selatan. Seragam Cinq standar, dengan Rocinante tersembunyi di balik greaves dan rapier di tangan.",
+   "tags": [
+    "Rapier",
+    "Rocinante"
+   ],
+   "sprite": false
+  }
+ },
+ {
+  "id": "03-cinq-east",
+  "name": "Cinq Assoc. East Section 3",
+  "quote": "Aha, so this explaineth the slight blandness of thy banquet! To prepare such spicy condiments in the form of a brawl… Forsooth, 'twas most unexpected!",
+  "rarity": "000",
+  "world": "World of the Cinq Association Eastern Branch",
+  "season": "Standar",
+  "releasedate": "2025.03.06",
+  "traits": [
+   "Fixer",
+   "Cinq Association"
+  ],
+  "hp": "82",
+  "speed": "4~7",
+  "defmod": "+2",
+  "resist": {
+   "slash": "Fatal",
+   "pierce": "Ineff",
+   "blunt": "Normal"
+  },
+  "skills": [
+   {
+    "slot": "S1",
+    "name": "Fa Jin",
+    "type": "Pierce",
+    "sin": "Gluttony",
+    "coin": "2"
+   },
+   {
+    "slot": "S2",
+    "name": "Virescent Flame Palm",
+    "type": "Pierce",
+    "sin": "Wrath",
+    "coin": "3"
+   },
+   {
+    "slot": "S3",
+    "name": "Prithee, let this be an enlightening bout",
+    "type": "Pierce",
+    "sin": "Pride",
+    "coin": "4"
+   },
+   {
+    "slot": "DEF",
+    "name": "Thou'rt in dire need of a lesson in table manners!",
+    "type": "Evade",
+    "sin": "Wrath",
+    "coin": "1"
+   }
+  ],
+  "passives": [
+   {
+    "name": "Virescent Pyrojade",
+    "text": "Turn End: gain 1 Haste next turn for every 3 Poise Potency on self (max 2)\nAgainst the target(or the Part) a Base Attack Skill hit last, inflict Nerve Strike - Don Quixote next turn (once per turn)\nDeal +(Burn Potency on the target)% damage on Critical Hit (max 15%)\n- Increase max cap by 5% for every 1 Nerve Strike - Don Quixote on the target"
+   },
+   {
+    "name": "Featherstride Technique",
+    "text": "1 ally with the fastest Speed: On Clash Win against enemies with Burn or 'Unique Burn', gain 1 Haste next turn (once per turn)\n- If the target has 20+ Burn Potency, gain 1 additional Haste"
+   }
+  ],
+  "voicelines": [
+   {
+    "occasion": "Identity Acquisition",
+    "english": "Aha, so this explaineth the slight blandness of thy banquet! To prepare such spicy condiments in the form of a brawl… Forsooth, 'twas most unexpected!"
+   },
+   {
+    "occasion": "Morning Greeting",
+    "english": "Slumbering through such an exciting morn would have been a most tragic affair! Hooie, to launch that chair from such a distance—'tis as dramatic as an episode of a soap opera in the morn!!"
+   },
+   {
+    "occasion": "Afternoon Greeting",
+    "english": "The eastern branch doth not spend the lunch idly on their behinds. I have heard tell that the western branch enjoyeth a rather lengthy tea-time, yet…\nHm, alas. 'Tis one way to lose potential clientele that may be roaming the streets at that very moment."
+   },
+   {
+    "occasion": "Evening Greeting",
+    "english": "Ah~ Verily, the eastern branch of the Cinq Association doth hold late-night assignments in disdain! Prithee, might there not be worthier Associations to which thou couldst call for matters of the night?\nDuels, forsooth, ought to be carried out under the high-noon sun in the audience of countless spectators!"
+   },
+   {
+    "occasion": "Chatter #1",
+    "english": "Troublemakers such as those cur make my blood run hot… yet we are but Fixers whose subsistence dependeth on our trade. Wouldst thou not say that, thus, we mustn't act without compensation?\nH-how doest thou know of mine olden foolishness…! Ahem, 'twas but the manifestation of mine inexperience as a newcomer to this Association…!"
+   },
+   {
+    "occasion": "Chatter #2",
+    "english": "Ahem… Aha! They shalt recognize me in no time, after I remain seated here awhile, and request me to duel in their stead.\n'Twould be like striking two birds with one pebble! I shall attain both the completion of a contract, and the silence of those raucous rascals!"
+   },
+   {
+    "occasion": "Chatter #3",
+    "english": "Ooh… this bowl of biangbiang noodles is… ah, what an utter excellence this is! The crunchi— ack?!\nHark! Thou hast cast specks of thy side dishes unto my plates! Keep thy violent parley out of my bowl, pah!"
+   },
+   {
+    "occasion": "Post-Uptie Chat 1",
+    "english": "Thy bladed instrument poseth little threat to me, amigo. Mine virescent pyrojade shall melt it to nothingness ere it doth me harm!"
+   },
+   {
+    "occasion": "Post-Uptie Chat 2",
+    "english": "'Twas a mistake to stir trouble in a tavern afore observing its clientele, amigo. 'Tis a rather spacious establishment—thou should have imagined that there would be a hidden dragon lurking somewhere amongst the shadows, hm?"
+   },
+   {
+    "occasion": "Idle",
+    "english": "Ooh! Verily, the present yet subtle crunchiness of the noodles maketh quite the perfection!"
+   },
+   {
+    "occasion": "Uptying",
+    "english": "Oof, apologies to thee. The gentleman there hath requested an 'emergency duel proxy' contract. I shall return in no time!"
+   },
+   {
+    "occasion": "Deployment",
+    "english": "Aha, a contract!"
+   },
+   {
+    "occasion": "Stage Entry",
+    "english": "Thou mayest know me as Don Quixote, Fixer of the third Section of Cinq Association East!"
+   },
+   {
+    "occasion": "Viewed in Battle",
+    "english": "'Tis an emergency, hm? Do know that it shall cost thee a tad more!"
+   },
+   {
+    "occasion": "Commencing Attack",
+    "english": "The virescent pyrojade burneth."
+   },
+   {
+    "occasion": "Enemy Stagger",
+    "english": "This duel!"
+   },
+   {
+    "occasion": "Staggered",
+    "english": "Hup?!"
+   },
+   {
+    "occasion": "Enemy Killed",
+    "english": "Endeth with my victory!"
+   },
+   {
+    "occasion": "Death",
+    "english": "Ahaaa… 'twas… quite education…al…"
+   },
+   {
+    "occasion": "Check Passed",
+    "english": "Mm, the conundrum hath been resolved, no?"
+   },
+   {
+    "occasion": "Check Failed",
+    "english": "Hohh… Ack, should I not have melted that?!"
+   },
+   {
+    "occasion": "Victory Cry",
+    "english": "Forsooth, this contract was a tad complicated, yet… No task shall remain undone before me, for all that standeth before me scattereth!"
+   },
+   {
+    "occasion": "Extra Conditions Fulfilled",
+    "english": "Was it not a decision most wise to employ mine emergency services, though more expensive it may have been? Heh heh… oh? Ah, nay. Close thy wallet; thou didst not truly believe that I would charge thee double, hm? To do so~ would be to stray from the way of justice!"
+   },
+   {
+    "occasion": "Defeat Wail",
+    "english": "Ne'er did I once imagine that I would be defeated, despite the complicatedness of this contract… F-fie… they are to discover that I have absconded from training in favor of roaming the streets…! Agh, what must I do…?!"
+   },
+   {
+    "occasion": "Using Skill 3 - Prithee, let this be an enlightening bout",
+    "english": "'Tis the finisher!"
+   }
+  ],
+  "thumb": "assets/identities/03-cinq-east.webp",
+  "art": "assets/identities/large/03-cinq-east.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/Cinq_Assoc._East_Section_3_Don_Quixote",
+  "card": {
+   "order": 3,
+   "label": "MW · 03",
+   "group": "association",
+   "accent": "#9bb0ff",
+   "focus": "85%",
+   "world": "Cinq Assoc. · Eastern Branch",
+   "name": "Cinq Assoc. East Section 3",
+   "blurb": "Fixer Seksi 3 cabang timur: changshan hitam berlambang Cinq, celana putih, jaket yang disampirkan di bahu, kacamata gelap, dan topi hitam.",
+   "tags": [
+    "Rapier",
+    "Rocinante"
+   ],
+   "sprite": false
+  }
+ },
+ {
+  "id": "04-w-corp",
+  "name": "W Corp. L3 Cleanup Agent",
+  "quote": "Welcome aboard, dearest passengers!!! I. Have. Arrived!!!",
+  "rarity": "000",
+  "world": "World of W Corp.",
+  "season": "Standar",
+  "releasedate": "2023.02.27",
+  "traits": [
+   "W Corp."
+  ],
+  "hp": "73",
+  "speed": "3~6",
+  "defmod": "-1",
+  "resist": {
+   "slash": "Normal",
+   "pierce": "Ineffective",
+   "blunt": "Fatal"
+  },
+  "skills": [
+   {
+    "slot": "S1",
+    "name": "Rip",
+    "type": "Slash",
+    "sin": "Sloth",
+    "coin": "1"
+   },
+   {
+    "slot": "S2",
+    "name": "Leap",
+    "type": "Pierce",
+    "sin": "Gloom",
+    "coin": "3"
+   },
+   {
+    "slot": "S3",
+    "name": "Rip Space",
+    "type": "Slash",
+    "sin": "Envy",
+    "coin": "5"
+   },
+   {
+    "slot": "DEF",
+    "name": "Evade",
+    "type": "Evade",
+    "sin": "Gloom",
+    "coin": "1"
+   }
+  ],
+  "passives": [
+   {
+    "name": "Quick Recharge",
+    "text": "At the start of the combat phase, gain Charge Count by (Gloom Reson./3)."
+   },
+   {
+    "name": "Broken Spirit",
+    "text": "1 ally with the fastest Speed gains +1 final Power for their first skill."
+   }
+  ],
+  "voicelines": [
+   {
+    "occasion": "Identity Acquisition",
+    "english": "Welcome aboard, dearest passengers!!! I. Have. Arrived!!!"
+   },
+   {
+    "occasion": "Morning Greeting",
+    "english": "Like the first train breaking the dawn, I shall rush forth with ever-constant vigor!"
+   },
+   {
+    "occasion": "Afternoon Greeting",
+    "english": "To think that the company provideth midday meals...! I am infatuated! I would remain employed here for eons if I could!"
+   },
+   {
+    "occasion": "Evening Greeting",
+    "english": "I have done mine utmost to take notes during today's meeting! Behold, I have utilized a great variety of colors to illuminate the writing! With stars and flowers and..."
+   },
+   {
+    "occasion": "Chatter #1",
+    "english": "Have you ridden one of W Corp's trains, Manager Esquire? Not once?! Hold it, I... Give me a moment."
+   },
+   {
+    "occasion": "Chatter #2",
+    "english": "What do you think of going on a train trip together, Manager Esquire? I'll pack our lunch!"
+   },
+   {
+    "occasion": "Chatter #3",
+    "english": "Have you seen Mistress Rodya anywhere? I promised her earlier that I would give her an extensive lecture on the history of W Corp, yet she's nowhere to be found!"
+   },
+   {
+    "occasion": "Post-Uptie Chat 1",
+    "english": "Manager Esquire, is it just me, or is this metallic odor tingling my nose prevalent in the air?"
+   },
+   {
+    "occasion": "Post-Uptie Chat 2",
+    "english": "Did you know that human life is more resilient than it seems? One may still be breathing even after suffering profuse bleeding and breaking most of one's bones."
+   },
+   {
+    "occasion": "Idle",
+    "english": "...and that is how the achievements of W Corp. came to be widely kno- Hm? Manager Esquire?"
+   },
+   {
+    "occasion": "Uptie",
+    "english": "Will I finally be given an important task?!"
+   },
+   {
+    "occasion": "Deployment",
+    "english": "Here we go!"
+   },
+   {
+    "occasion": "Stage Entry",
+    "english": "I shall rush ahead as would a train!"
+   },
+   {
+    "occasion": "Viewed in Battle",
+    "english": "I'm always ready to speed forward!"
+   },
+   {
+    "occasion": "Commencing Attack",
+    "english": "None shall stop me!"
+   },
+   {
+    "occasion": "Enemy Stagger",
+    "english": "Now seems to be our chance!"
+   },
+   {
+    "occasion": "Staggered",
+    "english": "Urk!"
+   },
+   {
+    "occasion": "Enemy Killed",
+    "english": "Where to next?!"
+   },
+   {
+    "occasion": "Ally Death",
+    "english": "Manager Esquire! I'll count on you once this is over!"
+   },
+   {
+    "occasion": "Check Passed",
+    "english": "Manager Esquire! I did an impressive job, did I not?"
+   },
+   {
+    "occasion": "Check Failed",
+    "english": "I am terribly sorry, it was vital I succeed..."
+   },
+   {
+    "occasion": "Victory Cry",
+    "english": "Now THERE is a valuable asset to the company!"
+   },
+   {
+    "occasion": "Extra Conditions Fulfilled",
+    "english": "Have I become a so-called elite?! Promote me, Manager Esquire!"
+   },
+   {
+    "occasion": "Defeat Wail",
+    "english": "I... shan't ever give up..."
+   }
+  ],
+  "thumb": "assets/identities/04-w-corp.webp",
+  "art": "assets/identities/large/04-w-corp.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/W_Corp._L3_Cleanup_Agent_Don_Quixote",
+  "card": {
+   "order": 4,
+   "label": "MW · 04",
+   "group": "corp",
+   "accent": "#45e0ff",
+   "focus": "50%",
+   "world": "WARP Corp.",
+   "name": "W Corp. L3 Cleanup Agent",
+   "blurb": "Agen pembersih Level 3 WARP Corp. Dua pedang laser pendek di tangan, dan Rocinante yang di dunia ini berbentuk sepatu bot tinggi.",
+   "tags": [
+    "Laser short swords",
+    "Rocinante"
+   ],
+   "sprite": false
+  }
+ },
+ {
+  "id": "05-middle",
+  "name": "The Middle Little Sister",
+  "quote": "I am Don Quixote! A Little Sister of the Middle, and a trusty minion to the Big Brother! Pleased to make thine acquaintance!",
+  "rarity": "000",
+  "world": "World of the Middle",
+  "season": "Season 3",
+  "releasedate": "2023.11.23",
+  "traits": [
+   "The Fingers",
+   "The Middle"
+  ],
+  "hp": "86",
+  "speed": "4~6",
+  "defmod": "+5",
+  "resist": {
+   "slash": "Fatal",
+   "pierce": "Normal",
+   "blunt": "Ineff"
+  },
+  "skills": [
+   {
+    "slot": "S1",
+    "name": "Checking the Book",
+    "type": "Blunt",
+    "sin": "Wrath",
+    "coin": "2"
+   },
+   {
+    "slot": "S2",
+    "name": "Proof of Loyalty",
+    "type": "Blunt",
+    "sin": "Envy",
+    "coin": "2"
+   },
+   {
+    "slot": "S3",
+    "name": "A Just Vengeance",
+    "type": "Blunt",
+    "sin": "Pride",
+    "coin": "4"
+   },
+   {
+    "slot": "DEF",
+    "name": "Multifold Retribution",
+    "type": "Blunt",
+    "sin": "Envy",
+    "coin": "2"
+   }
+  ],
+  "passives": [
+   {
+    "name": "Vengeance Tattoo",
+    "text": "- Gain 1 Envy DMG Up next turn every time the enemies strike an ally (including this unit) 3 times. (Max 5)\n- Apply Vengeance Mark to the unit that dealt the most Skill damage to an ally.\n- If the main target has Vengeance Mark, Coin Power +1"
+   },
+   {
+    "name": "Favoritism",
+    "text": "1 ally with the lowest Max HP gains 1 Blunt DMG Up next turn every time the enemies strike an ally (not including this unit) 6 times. (Max 2)"
+   }
+  ],
+  "voicelines": [
+   {
+    "occasion": "Identity Acquisition",
+    "english": "Call me Don Quixote! A Little Sister of the Middle, and a trusty minion to the Big Brother! Pleased to make thine acquaintance!"
+   },
+   {
+    "occasion": "Morning Greeting",
+    "english": "'Tis a wonderful morn! Art thou aware of the goings of the Big Brother today? Share with me such details!"
+   },
+   {
+    "occasion": "Afternoon Greeting",
+    "english": "The Big Brother invites me to dine out together this lunch! Wilt thou be joining us? Marry, he so generously offered to pay!"
+   },
+   {
+    "occasion": "Evening Greeting",
+    "english": "'Tis only proper that a party accompanies a dinner! Our dinners are always party-like, full of busy, jovial chatters."
+   },
+   {
+    "occasion": "Chatter #1",
+    "english": "True villainy is to bother a member, a family of the Middle! And to smite our two—no, threefold vengeance upon those curs is true justice!"
+   },
+   {
+    "occasion": "Chatter #2",
+    "english": "Our Big Brother is one who pays much care to styling his hair. It is said that he frequents a… rather boutique hair shop in one of the portships marked by affluence."
+   },
+   {
+    "occasion": "Chatter #3",
+    "english": "Though mine strength may be incomparable to the Big Brother's… I must still muse. Is he stronger than I tenfold? A hundredfold? Hm hm!"
+   },
+   {
+    "occasion": "Post-Uptie Chat 1",
+    "english": "Ha ha! Wherefore hath thou meddled with one of our own? Now, pay thy price!"
+   },
+   {
+    "occasion": "Post-Uptie Chat 2",
+    "english": "Lo! Read it well, for this is the Book of Vengeance. Here are tasks that we must complete to achieve justice.\nBehold, written here is thy name. Wouldst thou like for me to erase it? … Then thou must perish."
+   },
+   {
+    "occasion": "Idle",
+    "english": "'Tis important to keep the Book organized. For one day I shall rise to become a Big Sister… nay, a Great Sister!"
+   },
+   {
+    "occasion": "Uptying",
+    "english": "I have been tasked by the Big Brother himself to carry out this quest for the Book of Vengeance! Haha, heigh-ho! I must live up to his expectations!"
+   },
+   {
+    "occasion": "Deployment",
+    "english": "There be a cur who deserves our vengeance, then?!"
+   },
+   {
+    "occasion": "Stage Entry",
+    "english": "Allow me!"
+   },
+   {
+    "occasion": "Viewed in Battle",
+    "english": "Ah! Hath the Big Brother summoned me?"
+   },
+   {
+    "occasion": "Commencing Attack",
+    "english": "Ha ha! Charge!"
+   },
+   {
+    "occasion": "Enemy Stagger",
+    "english": "Steel thyself! The Book demands that thy death be carried out in clear mind."
+   },
+   {
+    "occasion": "Staggered",
+    "english": "No…!"
+   },
+   {
+    "occasion": "Enemy Killed",
+    "english": "Vengeance hath been executed."
+   },
+   {
+    "occasion": "Death",
+    "english": "To end here… is… No. The Middle… will remember…"
+   },
+   {
+    "occasion": "Check Passed",
+    "english": "Hah! Bring forth a real challenge!"
+   },
+   {
+    "occasion": "Check Failed",
+    "english": "Mine conviction must have fallen short…"
+   },
+   {
+    "occasion": "Victory Cry",
+    "english": "Thus this Vengeance hath been carried out to the end! There is more to boast this evening!"
+   },
+   {
+    "occasion": "Extra Conditions Fulfilled",
+    "english": "Let's see… Indeed! This entire row may be crossed out. The Big Brother must be pleased, for I have played a significant part in this quest!"
+   },
+   {
+    "occasion": "Defeat Wail",
+    "english": "Lest you forget… The Middle remembers… The Middle records… And Vengeance shall rain down upon thee tenfold."
+   },
+   {
+    "occasion": "Using Skill 3 - A Just Vengeance",
+    "english": "One crossed off the list."
+   }
+  ],
+  "thumb": "assets/identities/05-middle.webp",
+  "art": "assets/identities/large/05-middle.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/The_Middle_Little_Sister_Don_Quixote",
+  "card": {
+   "order": 5,
+   "label": "MW · 05",
+   "group": "other",
+   "accent": "#b86bff",
+   "focus": "0%",
+   "world": "District 21 Backstreets",
+   "name": "The Middle Little Sister",
+   "blurb": "Little Sister dari The Middle. Kemeja ungu terbuka, sarashi, dan tato enhancement ungu di dada, lengan, serta wajah — bertarung dengan rantai emas dan tangan kosong.",
+   "tags": [
+    "Hand-to-hand",
+    "Book of Vengeance"
+   ],
+   "sprite": false
+  }
+ },
+ {
+  "id": "06-la-manchaland",
+  "name": "The Manager of La Manchaland",
+  "quote": "The Family will be well-cared for.\n… After all, the onus always fell on me to provide for what you abandoned.",
+  "rarity": "000",
+  "world": "World of La Manchaland",
+  "season": "Season 5",
+  "releasedate": "2024.12.12",
+  "traits": [
+   "La Manchaland",
+   "Bloodfiend",
+   "Second Kindred"
+  ],
+  "hp": "63",
+  "speed": "4~7",
+  "defmod": "+0",
+  "resist": {
+   "slash": "Fatal",
+   "pierce": "Ineff",
+   "blunt": "Normal"
+  },
+  "skills": [
+   {
+    "slot": "S1",
+    "name": "Enough is Enough",
+    "type": "Pierce",
+    "sin": "Sloth",
+    "coin": "2"
+   },
+   {
+    "slot": "S2",
+    "name": "Let All Blossom Free",
+    "type": "Pierce",
+    "sin": "Wrath",
+    "coin": "2"
+   },
+   {
+    "slot": "S3",
+    "name": "I Shall Impale",
+    "type": "Pierce",
+    "sin": "Lust",
+    "coin": "3"
+   },
+   {
+    "slot": "DEF",
+    "name": "Laughters Shall Subside",
+    "type": "Pierce",
+    "sin": "Lust",
+    "coin": "2"
+   }
+  ],
+  "passives": [
+   {
+    "name": "Armadura de Sangre",
+    "text": "Attack End: If the enemy is defeated, increase Bloodfeast by 10% of the target's max HP (100 per turn; for Focused Encounters, if the Part is broken)\nGain 1 Damage Up next turn for every 15% missing HP at Turn End (max 3)\nIf an ally is about to be defeated from Bleed damage, prevent them from being defeated from Bleed damage for the turn (once per Encounter for each Identity)"
+   },
+   {
+    "name": "‘Feed your repressed hunger, my Family’",
+    "text": "Combat Start: 1 ally with the least HP gains 1 Damage Up for every 20% missing HP (max 3)\n- If the said ally is a <:Category:Bloodfiend Identities"
+   }
+  ],
+  "voicelines": [
+   {
+    "occasion": "Identity Acquisition",
+    "english": "The Family will be well-cared for.\n… After all, the onus always fell on me to provide for what you abandoned."
+   },
+   {
+    "occasion": "Morning Greeting",
+    "english": "The sun rises… Humans will be arriving soon. Abound with smiles and laughter, their ignorance buried in happiness.\nAll the while the Family is reduced to laughingstocks and forced to endure this burning thirst, clutching their parched throats…"
+   },
+   {
+    "occasion": "Afternoon Greeting",
+    "english": "I don't suppose locking the castle gates will do aught to deter the Knight from relentlessly knocking upon them. Father will command us to let the Knight in, with that familiar twinkle in his eyes, and…\nHaah… this hour alone has become a cause for headaches."
+   },
+   {
+    "occasion": "Evening Greeting",
+    "english": "The ever-lit lights of the confessional, the ceaseless sounds of the sewing machine from the tailor's room, the tired footsteps echoing from the Parade training hall…\nI can no longer abide by this charade as the family starves, suffering and gaoled in Father's dream."
+   },
+   {
+    "occasion": "Chatter #1",
+    "english": "Father's strength and will are greater than those of anyone. … That is precisely why he shall never discern the fathoms of our suffering and our yearning for blood. He will never understand how death encroaches upon us."
+   },
+   {
+    "occasion": "Chatter #2",
+    "english": "I did not sire my own Kindreds because… I enjoyed solitude, at first. Then, my reasoning became that I did not wish for my responsibility to be expanded beyond what there was.\nAnd now… because I already have my hands full protecting my little sister's Children while Father has absconded from his responsibilities in favor of a futile dream."
+   },
+   {
+    "occasion": "Chatter #3",
+    "english": "'The righteous Fixer of justice'? It is only an illusion. Courage, clemency, and humility that the Knight of the White Moon preached of are all but concepts conjured from a human mind.\nLet us see if humans can continue to insist on such 'righteousness' were they plagued by the same yearning that ails us."
+   },
+   {
+    "occasion": "Post-Uptie Chat 1",
+    "english": "At the end of the road paved by your gilded dream of coexistence lies the ruin of an irresponsible Father who's cast his Children from the sanctuary of their home.\nWhere was your concern for our suffering? Why—why was the burden of sacrifice always ours?!"
+   },
+   {
+    "occasion": "Post-Uptie Chat 2",
+    "english": "Coexistence is no more; let the hour of the banquet commence. Slaughter them, kill every human you see. Bathe in their blood and break the levees of your repressed emotions.\nWe shall then return to the stake that has impaled the heart, mantled in this stench of blood… and declare with our voices bridled no more. That we shall, henceforth, live as Bloodfiends should."
+   },
+   {
+    "occasion": "Idle",
+    "english": "… Hold your tongue; I will no longer tolerate any more ingenious ideas. I've wasted enough time entertaining those cloud-chasing ruminations."
+   },
+   {
+    "occasion": "Uptying",
+    "english": "Was it sweet, your hollow, juvenile dream? It is about time you awakened from it. Take responsibility for those you had once abandoned in the hands of others.\nResent us, O Father. For we shall resent you in return."
+   },
+   {
+    "occasion": "Deployment",
+    "english": "I shall bear the responsibility for everything."
+   },
+   {
+    "occasion": "Stage Entry",
+    "english": "Rebellion comes to La Manchaland."
+   },
+   {
+    "occasion": "Viewed in Battle",
+    "english": "I… cannot speak a word."
+   },
+   {
+    "occasion": "Commencing Attack",
+    "english": "For the Family…"
+   },
+   {
+    "occasion": "Enemy Stagger",
+    "english": "From this impalement…"
+   },
+   {
+    "occasion": "Staggered",
+    "english": "This is nothing."
+   },
+   {
+    "occasion": "Enemy Killed",
+    "english": "… shall it cascade."
+   },
+   {
+    "occasion": "Death",
+    "english": "Is this… 'the retribution' you spoke of, Priest…?"
+   },
+   {
+    "occasion": "Check Passed",
+    "english": "We triumphed for now, yet I do not know what lies in our future."
+   },
+   {
+    "occasion": "Check Failed",
+    "english": "… Your mistake was putting your faith in an impossibility. It was destined for failure."
+   },
+   {
+    "occasion": "Victory Cry",
+    "english": "I did not commit the sin of filial impiety for this meager outcome. Blood must continue to flow, to sate more of my family…"
+   },
+   {
+    "occasion": "Extra Conditions Fulfilled",
+    "english": "When the blood wets our throats, we shall be liberated from the deep thirst and the guilt toward our Father. So drink, drink with abandon, for that is the only dream this existence has permitted us."
+   },
+   {
+    "occasion": "Defeat Wail",
+    "english": "This was to be expected, for we do not possess the strength that our Father wields.\nThus we retreat for now, but should more blood spill…"
+   },
+   {
+    "occasion": "rowspan=\"3\"|Consuming Bloodfeast (except on Skill 3)",
+    "english": "It flows... the blood."
+   },
+   {
+    "occasion": "Using Skill 2 - Let All Blossom Free with Attack Weight",
+    "english": "You will bow."
+   },
+   {
+    "occasion": "Using Skill 3 - I Shall Impale",
+    "english": "You shall be impaled!"
+   },
+   {
+    "occasion": "Turn Start with 15+ Hardblood",
+    "english": "With your weapons, we will claim victory in this bloody struggle."
+   },
+   {
+    "occasion": "Using Skill 1-2 - Variant Sancho Hardblood Arts 6 - Whip",
+    "english": "Variant Sancho Hardblood Arts 6.\nBe torn apart!"
+   },
+   {
+    "occasion": "Using Skill 2-2 - Variant Sancho Hardblood Arts 8 - Split Apart",
+    "english": "Variant Sancho Hardblood Arts 8.\nBe split apart."
+   },
+   {
+    "occasion": "Using Defense-2 - Variant Sancho Hardblood Arts 15 - Buildup to Finale",
+    "english": "Hardblood Arts 15th\nBuilding up to the Finale."
+   },
+   {
+    "occasion": "Skill 3-2 in Dashboard",
+    "english": "When it comes to conjuring weapons, I was always better than my Father."
+   },
+   {
+    "occasion": "Using Skill 3-2 - Ascendant Sancho Hardblood Arts - La Sangre",
+    "english": "Ascendant Sancho Hardblood Arts - La Sangre.\nTime to end this."
+   },
+   {
+    "occasion": "Staggered while La Manchaland Identities are Deployed",
+    "english": "Focus on the feast in front of your eyes."
+   },
+   {
+    "occasion": "Death while The Princess of La Manchaland Rodion is present, prioritized over other La Manchaland Identities",
+    "english": "Dear Sister... My only sister... I leave the Family in your hands."
+   },
+   {
+    "occasion": "Death while The Barber of La Manchaland Outis is present, prioritized over The Priest of La Manchaland Gregor",
+    "english": "Barber... I leave the Family in your hands."
+   },
+   {
+    "occasion": "Death while The Priest of La Manchaland Gregor is present",
+    "english": "Priest... I leave the Family in your hands."
+   },
+   {
+    "occasion": "Deployed against The Barber",
+    "english": "You dare raise your blade against a higher Kindred? Punishment for your filial impiety awaits... And for me as well, I suppose."
+   },
+   {
+    "occasion": "Deployed against Dulcinea",
+    "english": "No... she is not like my sister."
+   },
+   {
+    "occasion": "Deployed against La Manchaland's Don Quixote",
+    "english": "…You gave up your dream for the Family? You, who preached about your dream with every breath…?"
+   }
+  ],
+  "thumb": "assets/identities/06-la-manchaland.webp",
+  "art": "assets/identities/large/06-la-manchaland.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/The_Manager_of_La_Manchaland_Don_Quixote",
+  "card": {
+   "order": 6,
+   "label": "MW · 06",
+   "group": "other",
+   "accent": "#ff4d6d",
+   "focus": "18%",
+   "world": "La Manchaland",
+   "name": "The Manager of La Manchaland",
+   "blurb": "Sancho sebagai Manager taman hiburan keluarganya, memikul tanggung jawab Manchegan saat Father mengabaikan mereka. Polearm Hardblood-nya bisa berubah jadi cambuk, gunting, dan perisai berbentuk parasol.",
+   "tags": [
+    "Hardblood polearm",
+    "Bloodfiend"
+   ],
+   "sprite": false
+  }
+ },
+ {
+  "id": "07-n-corp",
+  "name": "N Corp. Mittelhammer",
+  "quote": "The hammer of justice purgeth evil. Dost thou require mine aid? Fuhuhu...",
+  "rarity": "00",
+  "world": "World of N Corp. Fanatics",
+  "season": "Season 1",
+  "releasedate": "2023.05.03",
+  "traits": [
+   "N Corp.",
+   "N Corp. Fanatic"
+  ],
+  "hp": "82",
+  "speed": "2~5",
+  "defmod": "+1",
+  "resist": {
+   "slash": "Ineffective",
+   "pierce": "Normal",
+   "blunt": "Fatal"
+  },
+  "skills": [
+   {
+    "slot": "S1",
+    "name": "Rightful Purge",
+    "type": "Pierce",
+    "sin": "lust",
+    "coin": "2"
+   },
+   {
+    "slot": "S2",
+    "name": "Enactment!",
+    "type": "Blunt",
+    "sin": "gluttony",
+    "coin": "1"
+   },
+   {
+    "slot": "S3",
+    "name": "Fanatical Judgement",
+    "type": "Blunt",
+    "sin": "wrath",
+    "coin": "3"
+   },
+   {
+    "slot": "DEF",
+    "name": "Guard",
+    "type": "Guard",
+    "sin": "Lust",
+    "coin": "1"
+   }
+  ],
+  "passives": [
+   {
+    "name": "Thou Shalt Hammer!",
+    "text": "If the target has Nails, inflict +1 Tremor Count.\nIf this unit is Fanatic, inflict +1 Nails."
+   },
+   {
+    "name": "Hammer of Zealotry",
+    "text": "1 Fanatic ally that has the least SP deals +10% damage"
+   }
+  ],
+  "voicelines": [
+   {
+    "occasion": "Identity Acquisition",
+    "english": "The hammer of justice purgeth evil. Dost thou require mine aid? Fuhuhu..."
+   },
+   {
+    "occasion": "Morning Greeting",
+    "english": "...Ah, mine apologies. I give little heed to other sounds whilst I am focused on the doctrine. Hath the time for breakfast come?"
+   },
+   {
+    "occasion": "Afternoon Greeting",
+    "english": "When the night falleth, I shall be occupied with delivering justice... I must use this time to read the remaining passages..."
+   },
+   {
+    "occasion": "Evening Greeting",
+    "english": "...Heeheek?! Ah, hah... The masque... Will you please unmasque yourself at ordinary times? The dark made me mistake you for a heretic to purge..."
+   },
+   {
+    "occasion": "Chatter #1",
+    "english": "In 6:18... \"Yet I shall forge a vow with thee...\" Heehee! A vow decreed by the One Who Grips... Heeheeheek!"
+   },
+   {
+    "occasion": "Chatter #2",
+    "english": "An overabundance of evil prevaileth in the world... As the One Who Grips beeth simply too busy to purge them all aone, I aid her."
+   },
+   {
+    "occasion": "Chatter #3",
+    "english": "Ahh, so of this parchment you are curious. I transcribed the text myself... I cannot be in company with the passages of the One Who Grips at all times if they are confined to their tomes, can I...? Heeheeh."
+   },
+   {
+    "occasion": "Post-Uptie Chat 1",
+    "english": "This hammer beeth like a judge's gavel to me. With it, I aim for the heart of evil... and deliver judgement upon it."
+   },
+   {
+    "occasion": "Idle",
+    "english": "I cannot let precious rest go to waste."
+   },
+   {
+    "occasion": "Uptie",
+    "english": "Keehee! Ahahahah! Upstanding...! Purging."
+   },
+   {
+    "occasion": "Deployment",
+    "english": "...Mm, let us advance."
+   },
+   {
+    "occasion": "Stage Entry",
+    "english": "Evil shan't keep its proper form."
+   },
+   {
+    "occasion": "Viewed in Battle",
+    "english": "Hahahahah! Ah, you were by the side!"
+   },
+   {
+    "occasion": "Commencing Attack",
+    "english": "I shall pierce thee!"
+   },
+   {
+    "occasion": "Enemy Stagger",
+    "english": "*Maniacal Laughter*"
+   },
+   {
+    "occasion": "Staggered",
+    "english": "*Maniacal Laughter*"
+   },
+   {
+    "occasion": "Enemy Killed",
+    "english": "Rightly executed."
+   },
+   {
+    "occasion": "Death",
+    "english": "Krh... There are still—deeds undone..."
+   },
+   {
+    "occasion": "Check Passed",
+    "english": "'Twasn't a difficult task."
+   },
+   {
+    "occasion": "Check Failed",
+    "english": "...This puzzleth me."
+   },
+   {
+    "occasion": "Victory Cry",
+    "english": "Hmm... Doth it be time for rest?"
+   },
+   {
+    "occasion": "Extra Conditions Fulfilled",
+    "english": "This scenery... Oh, how beautiful the lands become once trodden by the hammer of justice!"
+   },
+   {
+    "occasion": "Defeat Wail",
+    "english": "Eheeheehee... Perchance... I was powerless... to purge evil."
+   }
+  ],
+  "thumb": "assets/identities/07-n-corp.webp",
+  "art": "assets/identities/large/07-n-corp.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/N_Corp._Mittelhammer_Don_Quixote",
+  "card": {
+   "order": 7,
+   "label": "MW · 07",
+   "group": "corp",
+   "accent": "#ded3b4",
+   "focus": "34%",
+   "world": "N Corp. Fanatics",
+   "name": "N Corp. Mittelhammer",
+   "blurb": "Mittelhammer Inquisition N Corp. — obsesif, tanpa rasa takut, dan riang. Membawa palu serta paku standar Inkuisisi, dengan Rocinante tetap terpasang di balik armornya.",
+   "tags": [
+    "Hammer &amp; nail",
+    "Rocinante"
+   ],
+   "sprite": false
+  }
+ },
+ {
+  "id": "08-shi",
+  "name": "Shi Assoc. South Section 5 Director",
+  "quote": "Hurrah, justice hath arrived! I shall drive all villains into equal demise!",
+  "rarity": "00",
+  "world": "World of the Shi Association Southern Branch",
+  "season": "Standar",
+  "releasedate": "2023.02.27",
+  "traits": [
+   "Fixer",
+   "Shi Association"
+  ],
+  "hp": "69",
+  "speed": "3~6",
+  "defmod": "-4",
+  "resist": {
+   "slash": "Ineffective",
+   "pierce": "Fatal",
+   "blunt": "Normal"
+  },
+  "skills": [
+   {
+    "slot": "S1",
+    "name": "Catch Breath",
+    "type": "Slash",
+    "sin": "wrath",
+    "coin": "1"
+   },
+   {
+    "slot": "S2",
+    "name": "Dual Strike",
+    "type": "Slash",
+    "sin": "envy",
+    "coin": "2"
+   },
+   {
+    "slot": "S3",
+    "name": "Overbreathe",
+    "type": "Slash",
+    "sin": "lust",
+    "coin": "1"
+   },
+   {
+    "slot": "DEF",
+    "name": "Evade",
+    "type": "Evade",
+    "sin": "Wrath",
+    "coin": "1"
+   }
+  ],
+  "passives": [
+   {
+    "name": "Prepared Mind",
+    "text": "Gain Haste by (Wrath Reson./3) next turn."
+   },
+   {
+    "name": "Divide in Two",
+    "text": "1 ally with the fastest Speed deals +10% Slash damage."
+   }
+  ],
+  "voicelines": [
+   {
+    "occasion": "Identity Acquisition",
+    "english": "Hurrah, justice hath arrived! I shall drive all villains into equal demise!"
+   },
+   {
+    "occasion": "Morning Greeting",
+    "english": "Shh, quiet Manager Esquire. I was practicing mine ambush maneuvers. Could you hear my footsteps?"
+   },
+   {
+    "occasion": "Afternoon Greeting",
+    "english": "You see, Manager Esquire, I aspire to persevere through the storms cast by the world. It ought to be worth the turmoil, as there are more stars in the sky than bare eyes can see."
+   },
+   {
+    "occasion": "Evening Greeting",
+    "english": "I feel the passion from mine youth rekindle when I gaze upon the bright moon."
+   },
+   {
+    "occasion": "Chatter #1",
+    "english": "Perhaps villains are closer to us than one might have thought. Ah, 'tis meaningless rambles. Forget that I spoke."
+   },
+   {
+    "occasion": "Chatter #2",
+    "english": "It did take me tremendous pains to learn to strike one's foe with nary a sound."
+   },
+   {
+    "occasion": "Chatter #3",
+    "english": "Hm? I appear fraught with gloom to the eyes? Surely, you are mistaken. I was merely lost in contemplation."
+   },
+   {
+    "occasion": "Post-Uptie Chat 1",
+    "english": "Manager Esquire, I thought that all men fought righteous battles in the name of justice as I do. All this complication of political intricacies and derived factions... They're beyond my grasp..."
+   },
+   {
+    "occasion": "Post-Uptie Chat 2",
+    "english": "The task of middle management... is truly an ardous one, especially for the mind... Have you endured this struggle as well, Manager Esquire?"
+   },
+   {
+    "occasion": "Idle",
+    "english": "Have you hidden yourself among the shadows?"
+   },
+   {
+    "occasion": "Uptie",
+    "english": "I.. shall exert greater efforts! Watch me, Manager Esquire!"
+   },
+   {
+    "occasion": "Deployment",
+    "english": "I shall pursue yon evildoers!"
+   },
+   {
+    "occasion": "Stage Entry",
+    "english": "What vile deeds have those villains done?"
+   },
+   {
+    "occasion": "Viewed in Battle",
+    "english": "I was preparing a surprise attack- you were able to detect me?"
+   },
+   {
+    "occasion": "Commencing Attack",
+    "english": "Let us vanquish these evildoers!"
+   },
+   {
+    "occasion": "Enemy Stagger",
+    "english": "You shan't be let a moment of clarity!"
+   },
+   {
+    "occasion": "Staggered",
+    "english": "Ack..."
+   },
+   {
+    "occasion": "Enemy Killed",
+    "english": "I slew them!"
+   },
+   {
+    "occasion": "Ally Death",
+    "english": "I shall avenge thee and vanquish that villain!"
+   },
+   {
+    "occasion": "Check Passed",
+    "english": "My justice bore fruit!"
+   },
+   {
+    "occasion": "Check Failed",
+    "english": "Nay, I shan't submit!"
+   },
+   {
+    "occasion": "Victory Cry",
+    "english": "Justice shall flourish under the moonlight!"
+   },
+   {
+    "occasion": "Extra Conditions Fulfilled",
+    "english": "On the darknest night, the brightest star is born! Now is one such moment!"
+   },
+   {
+    "occasion": "Defeat Wail",
+    "english": "I am certain no longer. The moon wanes. Is there hope of justice's fulfillment?"
+   }
+  ],
+  "thumb": "assets/identities/08-shi.webp",
+  "art": "assets/identities/large/08-shi.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/Shi_Assoc._South_Section_5_Director_Don_Quixote",
+  "card": {
+   "order": 8,
+   "label": "MW · 08",
+   "group": "association",
+   "accent": "#e0424f",
+   "focus": "10%",
+   "world": "Shi Assoc. · Southern Branch",
+   "name": "Shi Assoc. South Section 5 Director",
+   "blurb": "Direktur Seksi 5 Shi Association cabang selatan. Kemeja dan celana hitam, armguard panjang, katana merah — serta bekas luka di sepanjang lengan, hidung, dan pipi.",
+   "tags": [
+    "Red katana",
+    "Rocinante"
+   ],
+   "sprite": false
+  }
+ },
+ {
+  "id": "09-t-corp",
+  "name": "T Corp. Class 3 Collection Staff",
+  "quote": "Ahem~ Pray, pardon mine intrusion! I am a T Corp. Class 3 Employee of the Time Collections Agency! Thou must already be aware of our reason for visit, indeed?",
+  "rarity": "000",
+  "world": "World of T Corp.",
+  "season": "Standar",
+  "releasedate": "2024.06.27",
+  "traits": [
+   "T Corp."
+  ],
+  "hp": "95",
+  "speed": "4~7",
+  "defmod": "+4",
+  "resist": {
+   "slash": "Normal",
+   "pierce": "Fatal",
+   "blunt": "Ineff"
+  },
+  "skills": [
+   {
+    "slot": "S1",
+    "name": "Let Us Prepare to Collect",
+    "type": "Blunt",
+    "sin": "Gluttony",
+    "coin": "2"
+   },
+   {
+    "slot": "S2",
+    "name": "T Corp. Accelerated Amputator",
+    "type": "Slash",
+    "sin": "Pride",
+    "coin": "3"
+   },
+   {
+    "slot": "S3",
+    "name": "I Command Thee, Halt!",
+    "type": "Blunt",
+    "sin": "Sloth",
+    "coin": "4"
+   },
+   {
+    "slot": "DEF",
+    "name": "I Shall Summon the Time",
+    "type": "Guard",
+    "sin": "Sloth",
+    "coin": "1"
+   }
+  ],
+  "passives": [
+   {
+    "name": "Golden Time - Extracting",
+    "text": "- Turn End: If this unit's HP is between 10% ~ 20%, instantly heal 80% of this unit's max HP, and recover from Stagger. (once per Encounter)\n- When this unit loses Borrowed Time, gain +8 Aggro to one of this unit's Skill Slots next turn"
+   },
+   {
+    "name": "T Corp. Physics Distortion Field",
+    "text": "When 1 ally with the slowest Speed takes damage from enemies that have Tremor, take -10% damage"
+   }
+  ],
+  "voicelines": [
+   {
+    "occasion": "Identity Acquisition",
+    "english": "Ahem~ Pray, pardon mine intrusion! I am a T Corp. Class 3 Employee of the Time Collections Agency! Thou must already be aware of our reason for visit, indeed?"
+   },
+   {
+    "occasion": "Morning Greeting",
+    "english": "Good morrow. Ah, mayhap 'tis already time to prepare for a luncheon for thee? It grieveth me to see a slow, unhurried breakfast denied… I understand thy pain."
+   },
+   {
+    "occasion": "Afternoon Greeting",
+    "english": "The best of the already wonderful list of employee benefits here at T Corp is, verily, the TT4 Protocol-activated sleeping pod!\nHeh heh… The device permits me to enjoy a lengthy six-hour slumber over lunch, though only thirty minutes may have passed in the T Corp. Daily Standard Time!"
+   },
+   {
+    "occasion": "Evening Greeting",
+    "english": "Ah, thus approacheth the night. 'Tis quite mesmerizing, is it not? To watch as the beige sun creeps ever-closer to the horizon ere we depart from work…\nThough I admit 'tis a shame that, once we clock out of work, the beauty soon gives way to utter darkness."
+   },
+   {
+    "occasion": "Chatter #1",
+    "english": "There are many who fail to pay their dues in Time Tax, not to mention those who are caught 'finding' time in unauthorized manners.\nForsooth, we Collectors make sure to retrieve every debt that we are owed, with interest, so there is naught for thee to worry!"
+   },
+   {
+    "occasion": "Chatter #2",
+    "english": "T Corp. Employment also ensures that thou shalt be bestowed with this watch-and-identification!\nPay heed to this little clockwork knob! Once I rotate this… I shall be bestowed with extra time to complete my missions!"
+   },
+   {
+    "occasion": "Chatter #3",
+    "english": "To be allowed residence within a Nest, as a feather of a Wing no less, is quite the glory! I cannot rightly ask for any other work as honorable as assisting a Wing to ensure the just flow of time in the City!"
+   },
+   {
+    "occasion": "Post-Uptie Chat 1",
+    "english": "The nature of 'time' is like a body of viscous fluid, indeed. 'Twas my impression upon collecting time; it very much resembled a stream or fluid as I drew it!"
+   },
+   {
+    "occasion": "Post-Uptie Chat 2",
+    "english": "Ah, thou wouldst like to know more of the clockwork machines I wear? 'Tis mine armor, an 'exoskeleton' for field missions. The safety of a collector must be guaranteed for a successful retrieval of time, no?"
+   },
+   {
+    "occasion": "Idle",
+    "english": "Ah~ worry not thyself to keep me entertained! 'Tis only a brief moment for an employee of my Class. Go do whatever business it is that thou must see to, mind me not!"
+   },
+   {
+    "occasion": "Uptying",
+    "english": "Commencing Time Collections. Watch thy distance, lest thine own time be siphoned."
+   },
+   {
+    "occasion": "Deployment",
+    "english": "A time defaulter, is it?! Get thine watches and collection pickaxes!"
+   },
+   {
+    "occasion": "Stage Entry",
+    "english": "Commencing Collections, now."
+   },
+   {
+    "occasion": "Viewed in Battle",
+    "english": "No need to be hasty in thy speech! For I have all the ti— for I have a moderate sum of time in the world."
+   },
+   {
+    "occasion": "Commencing Attack",
+    "english": "It shall be done!"
+   },
+   {
+    "occasion": "Enemy Stagger",
+    "english": "There is aught else to collect from thee! Breathe not thy final breath!"
+   },
+   {
+    "occasion": "Staggered",
+    "english": "Agh…!"
+   },
+   {
+    "occasion": "Enemy Killed",
+    "english": "Fie… target deceased. Collection status: inaccessible."
+   },
+   {
+    "occasion": "Death",
+    "english": "There is yet much time that must be collected…"
+   },
+   {
+    "occasion": "Check Passed",
+    "english": "Another quest, handily completed!"
+   },
+   {
+    "occasion": "Check Failed",
+    "english": "Aah… 'twas not the wisest use of my time…"
+   },
+   {
+    "occasion": "Victory Cry",
+    "english": "Mm, 'twas naught exceptional. Now that the necessary time has been collected, let us return."
+   },
+   {
+    "occasion": "Extra Conditions Fulfilled",
+    "english": "Fie, I have collected more time than we were owed… Hm, yet… now that the defaulter has unfortunately perished, perchance it would be most just to return all of their remaining time to the T Corp. Time Vault, indeed!"
+   },
+   {
+    "occasion": "Defeat Wail",
+    "english": "My time collections rate is beneath the baseline…? Ah, thus I am become failure, a fool who knows not how to make the best of her time…"
+   },
+   {
+    "occasion": "Using Defense Skill - I Shall Summon the Time",
+    "english": "Executing Time Collection."
+   },
+   {
+    "occasion": "Using Skill 3 - I Command Thee, Halt! with Borrowed Time",
+    "english": "Accelerating!"
+   }
+  ],
+  "thumb": "assets/identities/09-t-corp.webp",
+  "art": "assets/identities/large/09-t-corp.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/T_Corp._Class_3_Collection_Staff_Don_Quixote",
+  "card": {
+   "order": 9,
+   "label": "MW · 09",
+   "group": "corp",
+   "accent": "#e0a63c",
+   "focus": "22%",
+   "world": "T Corp.",
+   "name": "T Corp. Class 3 Collection Staff",
+   "blurb": "Kolektor Kelas 3 T Corp dengan monocle. Membawa Time Amputation — chainsaw modifikasi — dan Time Snare, sebuah pickaxe besar.",
+   "tags": [
+    "Time Amputation",
+    "Time Snare"
+   ],
+   "sprite": false
+  }
+ },
+ {
+  "id": "10-blade-lineage",
+  "name": "Blade Lineage Salsu",
+  "quote": "The way of… Wine? Drinking etiquette? Forsooth, I am quite unaquainted with that subject. Kaugh, 't-tis quite bitter!",
+  "rarity": "00",
+  "world": "World of the Kurokumo Clan and Blade Lineage",
+  "season": "Season 3e",
+  "releasedate": "2024.02.22",
+  "traits": [
+   "Syndicate",
+   "Blade Lineage"
+  ],
+  "hp": "73",
+  "speed": "4~8",
+  "defmod": "-2",
+  "resist": {
+   "slash": "Ineff",
+   "pierce": "Normal",
+   "blunt": "Fatal"
+  },
+  "skills": [
+   {
+    "slot": "S1",
+    "name": "Draw of the Sword",
+    "type": "Pierce",
+    "sin": "Pride",
+    "coin": "2"
+   },
+   {
+    "slot": "S2",
+    "name": "Blade Arc",
+    "type": "Slash",
+    "sin": "Envy",
+    "coin": "2"
+   },
+   {
+    "slot": "S3",
+    "name": "Fare Thee Well!",
+    "type": "Slash",
+    "sin": "Sloth",
+    "coin": "3"
+   },
+   {
+    "slot": "DEF",
+    "name": "Evade",
+    "type": "Evade",
+    "sin": "Pride",
+    "coin": "1"
+   }
+  ],
+  "passives": [
+   {
+    "name": "Collective Breathing",
+    "text": "When this unit gains Poise Potency using its own Skill or Coin effects: Give 1 Poise Potency to 1 ally that either has no Poise or has the least Poise Potency (max 5 times)"
+   },
+   {
+    "name": "Nightly Stroll",
+    "text": "1 ally that has the least Poise gains 2 more Poise Potency when gaining Poise Potency using its own Skill or Coin effects (max 2 times; does not apply to allies that do not have Poise)"
+   }
+  ],
+  "voicelines": [
+   {
+    "occasion": "Identity Acquisition",
+    "english": "The way of... Wine? Drinking etiquette? Forsooth, I am quite unacquainted with that subject. Kaugh, 't-tis quite bitter!"
+   },
+   {
+    "occasion": "Morning Greeting",
+    "english": "Good morrow to thee! Though the weather may be quite dreary, hm~ This crisp smell of daybreak is quite pleasant, is it not?\n'Tis the perfect time for a reconnaissance, indeed!"
+   },
+   {
+    "occasion": "Afternoon Greeting",
+    "english": "Ah, oft do I forgo a midday meal in favor of honing my skills with a blade.\nForget that, for I must now narrate the events of my reconnaissance!"
+   },
+   {
+    "occasion": "Evening Greeting",
+    "english": "Mm... I have heard tale of a culture that oft sups alongside an alcoholic beverage, indeed. Yet it ill-fits my temperament... I merely wish to gorge myself on slabs of meaty yukjeon(meat fritter)!"
+   },
+   {
+    "occasion": "Chatter #1",
+    "english": "I wish only to twirl and let my blade sing with abandon! Seldom did I expect me to be forced to learn 'the way of wine'...\n... P-prithee, do not let Lady Outis hear of my complaints!"
+   },
+   {
+    "occasion": "Chatter #2",
+    "english": "Sip from a bottle, sip from a cup... what difference does it make? It ends up in my gullet all the same. I am befuddled at why any would focus on a subject so irrelevant from the blade.\nFie, I care not for such trifles. Thou must hear of the mischief the Kurokumo Clan is up to."
+   },
+   {
+    "occasion": "Chatter #3",
+    "english": "Tis my belief that to cut something along the arc of my blade is much more satisfying than indulging in a succulent meal!\nThe sensation of that slight resistance as the blade cuts through the mass... 'tis quite exhilarating, wouldst thou not agree?"
+   },
+   {
+    "occasion": "Post-Uptie Chat 1",
+    "english": "I sensed that we may find ourselves a few unwelcome guests! I deduced it from the untimely stirring, indeed.\n'Tis only right that no traveler graces the roads at this time. So I have righted all the wrongs."
+   },
+   {
+    "occasion": "Post-Uptie Chat 2",
+    "english": "To slice through the air as I train myself in the way of blades, and to hew the deserving ones as I walk the path... there is very little difference.\nIf I were to make a distinction... mm, I must say, the only difference is the weight in my hands."
+   },
+   {
+    "occasion": "Idle",
+    "english": "'Tis a moonlight most fair... Hath the battle left nicks in my blade...? Whew, not even a speck of dust remains on its edge."
+   },
+   {
+    "occasion": "Uptying",
+    "english": "Ah, 'twas naught but the noise outside. Wouldst thou mind if I should go on a little stroll to investigate?"
+   },
+   {
+    "occasion": "Deployment",
+    "english": "Hm? Ah, give me but a moment—I must first swallow this..."
+   },
+   {
+    "occasion": "Stage Entry",
+    "english": "I shall scurry there posthaste!"
+   },
+   {
+    "occasion": "Viewed in Battle",
+    "english": "I am quite busy at the moment!"
+   },
+   {
+    "occasion": "Commencing Attack",
+    "english": "How thrilling!"
+   },
+   {
+    "occasion": "Enemy Stagger",
+    "english": "Hm? Aha, I must not have struck true..."
+   },
+   {
+    "occasion": "Staggered",
+    "english": "Uagh!"
+   },
+   {
+    "occasion": "Enemy Killed",
+    "english": "Ah, truly! 'Twas a flesh-splitting sensation!"
+   },
+   {
+    "occasion": "Death",
+    "english": "Aah, haah... Forsooth, well did I expect to be... hewn... myself."
+   },
+   {
+    "occasion": "Check Passed",
+    "english": "Heigh-ho! I have done it~!"
+   },
+   {
+    "occasion": "Check Failed",
+    "english": "Uh-ahm~ I-I suppose I have made a mistake.."
+   },
+   {
+    "occasion": "Victory Cry",
+    "english": "'Twas naught but a quick jaunt indeed. Now I return with a lighter heart to... where Lady Outis awaits. Drat..."
+   },
+   {
+    "occasion": "Extra Conditions Fulfilled",
+    "english": "I have swung my blade with abandon! Ah, how refreshing, how exhilarating! Now, I may have enough patience to sit through such interminable lectures!"
+   },
+   {
+    "occasion": "Defeat Wail",
+    "english": "A flaw in my techniques... I must have grown complacent. I shall persevere..."
+   }
+  ],
+  "thumb": "assets/identities/10-blade-lineage.webp",
+  "art": "assets/identities/large/10-blade-lineage.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/Blade_Lineage_Salsu_Don_Quixote",
+  "card": {
+   "order": 10,
+   "label": "MW · 10",
+   "group": "other",
+   "accent": "#78c9a0",
+   "focus": "62%",
+   "world": "Blade Lineage",
+   "name": "Blade Lineage Salsu",
+   "blurb": "Salsu dari Blade Lineage. Kaus hitam berkerah tinggi, robe Dopo hitam, jikdo di tangan, dan wajah yang sedikit dipenuhi bekas luka.",
+   "tags": [
+    "Jikdo",
+    "Rocinante"
+   ],
+   "sprite": false
+  }
+ },
+ {
+  "id": "11-heishou",
+  "name": "Heishou Pack - Wei Branch",
+  "quote": "Ye jest, surely… how can ye speak of heat…? By my troth, *groan* I could perish of cold this very moment… Achoo!",
+  "rarity": "000",
+  "world": "World of H Corp.",
+  "season": "Season 6",
+  "releasedate": "2025.11.20",
+  "traits": [
+   "H Corp.",
+   "Heishou Pack",
+   "Heishou Pack - Wei Branch"
+  ],
+  "hp": "82",
+  "speed": "4~7",
+  "defmod": "+3",
+  "resist": {
+   "slash": "Ineff",
+   "pierce": "Fatal",
+   "blunt": "Normal"
+  },
+  "skills": [
+   {
+    "slot": "S1",
+    "name": "Breakthrough",
+    "type": "Blunt",
+    "sin": "Lust",
+    "coin": "2"
+   },
+   {
+    "slot": "S2",
+    "name": "Seize the Momentum, Shatter the Wall",
+    "type": "Blunt",
+    "sin": "Gluttony",
+    "coin": "3"
+   },
+   {
+    "slot": "S3",
+    "name": "Crushing Horns [破碎角]",
+    "type": "Blunt",
+    "sin": "Gloom",
+    "coin": "4"
+   },
+   {
+    "slot": "DEF",
+    "name": "I shall crush all that standeth in our way!",
+    "type": "Blunt",
+    "sin": "Gluttony",
+    "coin": "2"
+   }
+  ],
+  "passives": [
+   {
+    "name": "Explosive Battering Ram",
+    "text": "Deal (-Target's SP / 3)% more damage against targets at less than 0 SP (max 15%, rounded down)\nDeal +1% damage for every 2 (Rupture + Sinking) on target (max 15%)\n- Double this effect and max value against Non-SP targets\nIf this unit has Burgeoning of Horns -發角-, the last Coin of this unit's Base Skills deals +15% damage\n- When attacking Skill Slots equipped with a Defense Skill, the last Coin deals +30% damage instead\n- When Clashing against a Clashable Guard Skill, Clash Power +3"
+   },
+   {
+    "name": "Flesh-Rending Horn Growth",
+    "text": "Ally with the fastest Speed: On Hit using a Base Attack Skill against enemies that have 2+ Rupture Count or Sinking Count, inflict 1 Defense Level Down (2 times per turn)"
+   }
+  ],
+  "voicelines": [
+   {
+    "occasion": "Identity Acquisition",
+    "english": "Ye jest, surely... how can ye speak of heat...? By my troth, *groan* I could perish of cold this very moment... Achoo!"
+   },
+   {
+    "occasion": "Morning Greeting",
+    "english": "Knowest thou this, perchance...? Cold as the dark of night may be... *shiver* 'tis this very moment when the first light breaketh, that the chill is the fiercest... I had hoped 'twould have warmed by now, but alas! *groan*"
+   },
+   {
+    "occasion": "Afternoon Greeting",
+    "english": "Wherefore doth every shop about sell naught but cold food? ... Aah! That scent, could it be...?! Even in this season and weather, a whale-bread merchant maketh trade! C-c-coin, coin... Ho, friend... Hast thou any coin to spare, perchance?"
+   },
+   {
+    "occasion": "Evening Greeting",
+    "english": "Nngh... the night air chilleth to the bone... At times such as this, naught beats curling beneath a toasty blanket and drifting to slumber... Ahh... must I head out...? V-very well... I shall prepare...\nBut this blanket hath been warmed to such perfection... Prithee, just 5 minutes more... might we tarry but so long?"
+   },
+   {
+    "occasion": "Chatter #1",
+    "english": "Hearken to me. In days of yore, I, too, traversed lands afar and wide. I beheld sights unseen... and faced beasts most fearsome...\nNngh! Ever since the Wei Bolus hath wrought these horns upon me, oft do I find my mind in a haze—how had I ever the mettle for such feats?"
+   },
+   {
+    "occasion": "Chatter #2",
+    "english": "Our worth lieth in shattering all that blocketh the path ahead, *sigh* but alas, who among us could perform such frightful toil with a sound mind? When our lord hath need of us, he draweth the leash tight. Then, forsooth, a fretful disquiet taketh hold, as though some unseen burden driveth us onward... and naught doth seem too fearsome anymore."
+   },
+   {
+    "occasion": "Chatter #3",
+    "english": "... Eep?! A-apologies... Whenever my mind wandereth, I am seized with the urge to ram whatever standeth nigh... Pray, I have a favor to ask of thee. Couldst thou fetch me a sack stuffed with straw?\nTh-this habit of mine... Once I begin, 'tis nigh impossible to cease... I would fain not ram thee, lest thy shinbone be broken. P-prithee, make speed!"
+   },
+   {
+    "occasion": "Post-Uptie Chat 1",
+    "english": "A chill... creepeth up my back... Haste ye...! We must break through their ranks and press onward! Come! Forth, Battering Ram Horns(衝破角)!"
+   },
+   {
+    "occasion": "Post-Uptie Chat 2",
+    "english": "Haah... Mine eyes oft grow dim amidst the heat of battle. Be warned and thrash not thus before me, lest I, peradventure, fail to resist the urge to ram thee!"
+   },
+   {
+    "occasion": "Idle",
+    "english": "Ho, ye... Whither have ye gone to...? Nngh... To be alone, devoid of company, doth trouble me... Rocinante...? Prithee, spin now a tale most wondrous that mine heart may find solace..."
+   },
+   {
+    "occasion": "Uptying",
+    "english": "Turn back not, I say!\nThere, forward ye charge! The pack of sheep shall break and shatter all that standeth before ye!"
+   },
+   {
+    "occasion": "Deployment",
+    "english": "Hmm, time for the Wei to join the fray... *groan* 'tis cold..."
+   },
+   {
+    "occasion": "Stage Entry",
+    "english": "Whew... Let us go forth!"
+   },
+   {
+    "occasion": "Viewed in Battle",
+    "english": "Charge!!"
+   },
+   {
+    "occasion": "Commencing Attack",
+    "english": "Topple them ere the battle is afoot!"
+   },
+   {
+    "occasion": "Enemy Stagger",
+    "english": "Doth not thy brainpan rattle from within?"
+   },
+   {
+    "occasion": "Staggered",
+    "english": "Hrrk...!"
+   },
+   {
+    "occasion": "Enemy Killed",
+    "english": "Down they crumble!"
+   },
+   {
+    "occasion": "Death",
+    "english": "Gah?! Aah... Is... is this... mine end?"
+   },
+   {
+    "occasion": "Check Passed",
+    "english": "Oh... W-was that... a success, perchance?"
+   },
+   {
+    "occasion": "Check Failed",
+    "english": "Eeek?! F-f-forgive me...!"
+   },
+   {
+    "occasion": "Victory Cry",
+    "english": "*pant* *pant* Is it safe to halt here? A-are there yet more upon my heels...? Whew, my shoulders ache grievously... Let's see... Lo! It seemeth I have swept past these wretches!"
+   },
+   {
+    "occasion": "Extra Conditions Fulfilled",
+    "english": "Hark, fellow herd of mine! Tarry not in your tracks, lest the jaws of our enemies close on us! Put your trust in your mighty horns, and charge forth!"
+   },
+   {
+    "occasion": "Defeat Wail",
+    "english": "Say... My sight is yet to return. Are those bodies piled yonder the dead of our foes, or...?\nAh, I see. 'Tis... a grievous and terrible thing, forsooth..."
+   },
+   {
+    "occasion": "Using Skill 3 - Crushing Horns [破碎角]",
+    "english": "Khhh...! C-crush...!"
+   }
+  ],
+  "thumb": "assets/identities/11-heishou.webp",
+  "art": "assets/identities/large/11-heishou.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/Heishou_Pack_-_Wei_Branch_Don_Quixote",
+  "card": {
+   "order": 11,
+   "label": "MW · 11",
+   "group": "corp",
+   "accent": "#ffd166",
+   "focus": "34%",
+   "world": "H Corp. · Heishou Packs",
+   "name": "Heishou Pack - Wei Branch",
+   "blurb": "Seekor “domba” dari Wei Branch. Mantel musim dingin kuning berbulu putih, dan tanduk yang tumbuh dari tubuhnya dibentuk menjadi sepasang tonfa.",
+   "tags": [
+    "Tonfa",
+    "Horns"
+   ],
+   "sprite": false
+  }
+ },
+ {
+  "id": "12-index-proxy",
+  "name": "The Index Proxy - Effloresced E.G.O::Procuration",
+  "quote": "\"Those whose eyes have met, and those whose eyes have not.\" \"72 minutes.\" \"Kill.\" 'Tis thou.\nFlee thee not, for the P-Prescript pointeth to thee.",
+  "rarity": "000",
+  "world": "World of the House of Spiders",
+  "season": "Season 7",
+  "releasedate": "2026.01.08",
+  "traits": [
+   "The Fingers",
+   "The House of Spiders",
+   "The Index"
+  ],
+  "hp": "76",
+  "speed": "3~6",
+  "defmod": "+2",
+  "resist": {
+   "slash": "Ineff",
+   "pierce": "Fatal",
+   "blunt": "Normal"
+  },
+  "skills": [
+   {
+    "slot": "S1",
+    "name": "Skull Crushing",
+    "type": "Blunt",
+    "sin": "Lust",
+    "coin": "2"
+   },
+   {
+    "slot": "S2",
+    "name": "B-be Thee Silent",
+    "type": "Blunt",
+    "sin": "Pride",
+    "coin": "3"
+   },
+   {
+    "slot": "S3",
+    "name": "T-the Prescript Must be Fulfilled Anon…",
+    "type": "Blunt",
+    "sin": "Gloom",
+    "coin": "2"
+   },
+   {
+    "slot": "DEF",
+    "name": "Prescript-granted, Prescript-woven Fabric",
+    "type": "Blunt",
+    "sin": "Gloom",
+    "coin": "3"
+   }
+  ],
+  "passives": [
+   {
+    "name": "The Great Magicked Beeper Knoweth My Desire!",
+    "text": "Deal +2% damage using Skills marked with Mark of the Prescript for every Grace of the Prescript on self (max 16%)\n- At 9 Grace of the Prescript, deal +20% damage using Base Skills instead\nOn hit using Base Skill attacks against targets that have The Prescript's Target, heal 3 SP (once per Skill; 2 times per turn)\n- Heal additional SP based on Unlock stage"
+   },
+   {
+    "name": "This, too, is the Grace of the Great Magicked Beeper!",
+    "text": "The Index faction, they gain 1 Damage Up as well\n- This effect does not apply to units under effects that prevent SP recovery such as E.G.O Corrosion, Panic, etc."
+   }
+  ],
+  "voicelines": [
+   {
+    "occasion": "Identity Acquisition",
+    "english": "\"Those whose eyes have met, and those whose eyes have not.\" \"72 minutes.\" \"Kill.\" 'Tis thou.\nFlee thee not, for the P-Prescript pointeth to thee."
+   },
+   {
+    "occasion": "Morning Greeting",
+    "english": "The Great Magicked Beeper and Rocinante both make for excellent partners of mine, yet… they grant me no aid in matters of styling my h-hair…\nIt ruffleth and ruffleth with greater intensity every morn, culminating in th-this… hairstyle."
+   },
+   {
+    "occasion": "Afternoon Greeting",
+    "english": "The hour of hunger is nigh. I… Should I be granted an opportunity to dine out, I-I would like nothing more than to sup upon a dish of f-fresh shrimp and garlic.\nPray tell, what is it that thou cravest— … Hm. Hmhm… P-perchance, hast thou entertained the thought of partaking in some chocolate today?"
+   },
+   {
+    "occasion": "Evening Greeting",
+    "english": "Art thou home, Master? Hm… he must have departed to fulfill a Prescript in mine absence.\nI ill wish to be alone in m-master's room, for it is bare of aught save white and black… Yet I presume a visit to a n-neighboring room shan't be met with any welcome… Mmmh… What must be done…?"
+   },
+   {
+    "occasion": "Chatter #1",
+    "english": "There once was a time when I would fall into a puddle of d-dejection, for I was granted no sword, as hath been bestowed upon others.\nO-of course, now I have become enlightened as to why I was not granted a sword. B-behold! 'Tis not the wieldiest weapon indeed, yet this E.G.O… is the o-one and only <i>sword</i> of mine, chosen by the Prescript itself."
+   },
+   {
+    "occasion": "Chatter #2",
+    "english": "Hm… Hmmm… \"Encounter five.\" \"Unjust ones.\" \"Blunt trauma.\"\nR-Rocinante, art thou prepared? Lord Magicked Beeper hath bestowed upon us a most wonderful Prescript… 'Tis high time we galloped on!"
+   },
+   {
+    "occasion": "Chatter #3",
+    "english": "I-I am quite fond of those who are kind! Though compatriots of mine at the House of Spiders are hardly souls of gentle disposition…\nNngh… Upon my return, they shall bully me again, that it was mine inattentiveness that hath left me astray. M-master… I have begun to miss my kind master."
+   },
+   {
+    "occasion": "Post-Uptie Chat 1",
+    "english": "… One requireth more than blind faith in the P-Prescripts to attain a-an unbreakable conviction… on the definitions of good and evil.\nMy master hath spoken that I-I am someone of considerable talent. Talent in regarding Prescripts not only as absolute commands, but as my destiny… as a part of my ego."
+   },
+   {
+    "occasion": "Post-Uptie Chat 2",
+    "english": "\"Vast are the shadows overall, and petty shadows are aground bewildered.\" … Ah, 'tis not the Prescript revealed by the Great Magicked Beeper, but words my master did utter whilst gazing upon mine own E.G.O!\n… I did ponder them for 3 and 70 hours, yet mine understanding remaineth vexed… Wherefore are the words of my master harder to f-fathom than the Prescripts themselves?"
+   },
+   {
+    "occasion": "Idle",
+    "english": "… Ah. Verily, when worry doth seize me, m-my mind oft strayeth thus into deep contemplation."
+   },
+   {
+    "occasion": "Uptying",
+    "english": "Th-they who wander hither without a spiral in their hearts… shall risk the dire displeasure of my master.\nYea, nor would the Great Magicked Beeper, nor Rocinante, shall take kindly to such souls. Wouldst thou not agree?"
+   },
+   {
+    "occasion": "Deployment",
+    "english": "… 'Tis here."
+   },
+   {
+    "occasion": "Stage Entry",
+    "english": "… And once more, the Will of the Prescript doth align with mine own."
+   },
+   {
+    "occasion": "Viewed in Battle",
+    "english": "Prithee, hold awhile. Prescripts delivered by the Great Magicked Beeper are, in sooth, o-obscure to decipher…"
+   },
+   {
+    "occasion": "Commencing Attack",
+    "english": "Render it unforeseeable."
+   },
+   {
+    "occasion": "Enemy Stagger",
+    "english": "Thou art shaken."
+   },
+   {
+    "occasion": "Staggered",
+    "english": "Guuh… Th-that paineth me sore…"
+   },
+   {
+    "occasion": "Enemy Killed",
+    "english": "'Tis a fate long prescribed."
+   },
+   {
+    "occasion": "Death",
+    "english": "… Prithee… t-tell him… I have… done my utmost…"
+   },
+   {
+    "occasion": "Check Passed",
+    "english": "Seest thou? Verily, the Prescript is absolute!"
+   },
+   {
+    "occasion": "Check Failed",
+    "english": "'Twas but the Will of the Prescript, whispered by the Great Magicked Beeper."
+   },
+   {
+    "occasion": "Victory Cry",
+    "english": "O-once again, I have fulfilled the Will of the Prescript to perfection this day. P-prithee, though I b-blush to ask this of thee, couldst thou perchance deliver to my master the news of mine earnest toil?\n… The magick of the Great Beeper is not spent… y-yet wherefore doth it withhold its reply…?"
+   },
+   {
+    "occasion": "Extra Conditions Fulfilled",
+    "english": "If… if, peradventure, I but surmount this next trial… I may then avouch myself the f-family of my master.\nSh-should this come to pass… I shall know neither cold nor loneliness more…"
+   },
+   {
+    "occasion": "Defeat Wail",
+    "english": "… I did desire… to hear more of my master's words… and the Prescript of the Great Beeper…"
+   },
+   {
+    "occasion": "Using Skill 3 - T-the Prescript Must be Fulfilled Anon…",
+    "english": "Inevitable.\nAbsolute."
+   },
+   {
+    "occasion": "rowspan=\"3\"|Unlock - I, Unlock - II, Unlock - III gained",
+    "english": "The Prescript hath no uncertainties."
+   },
+   {
+    "occasion": "Manifesting E.G.O",
+    "english": "Decide. Unlock. Transcend."
+   },
+   {
+    "occasion": "Enemy Killed while in E.G.O state",
+    "english": "'Tis destined death."
+   },
+   {
+    "occasion": "Using Skill 3-2 - Procuration: Annihilate",
+    "english": "Th-thou hast never been kind."
+   },
+   {
+    "occasion": "Completing Prescript via S3-2 Procuration: Annihilate",
+    "english": "The procuration hath been done."
+   }
+  ],
+  "thumb": "assets/identities/12-index-proxy.webp",
+  "art": "assets/identities/large/12-index-proxy.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/The_Index_Proxy_-_Effloresced_E.G.O::Procuration_Don_Quixote",
+  "card": {
+   "order": 12,
+   "label": "MW · 12",
+   "group": "ego",
+   "accent": "#cfc6ff",
+   "focus": "42%",
+   "world": "House of Spiders · Index",
+   "name": "The Index Proxy — E.G.O::Procuration",
+   "blurb": "Proxy Index dan murid Nursefather Yi Sang, yang menemukannya tanpa ingatan di Ruins. Saat E.G.O “Procuration” aktif, belenggunya pecah: cakar bayangan, dua tanduk gelap, ekor, dan cakar dari Rocinante sendiri.",
+   "tags": [
+    "E.G.O",
+    "Fetters"
+   ],
+   "sprite": false
+  }
+ },
+ {
+  "id": "13-le-noir",
+  "name": "Haute Couture::Le Noir Brand Manager",
+  "quote": "And thus saith the Lord: \"Unto Le Noir be contentment, and unto the Brand Manager be tribulation and hammer.\"\nWith this sacred duty in mine hand, I call thee to answer: art thou an adherent of the rules, or… a fomenter of anarchy?",
+  "rarity": "000",
+  "world": "World of the Grand Magasin Sisyphe",
+  "season": "Season 8",
+  "releasedate": "2026.10.01",
+  "traits": [
+   "Sisyphe",
+   "Le Noir"
+  ],
+  "hp": "88",
+  "speed": "4~7",
+  "defmod": "+4",
+  "resist": {
+   "slash": "Normal",
+   "pierce": "Fatal",
+   "blunt": "Ineff"
+  },
+  "skills": [
+   {
+    "slot": "S1",
+    "name": "Cometh the Nail",
+    "type": "Blunt",
+    "sin": "Pride",
+    "coin": "2"
+   },
+   {
+    "slot": "S2",
+    "name": "Summoneth the Nail",
+    "type": "Blunt",
+    "sin": "Envy",
+    "coin": "2"
+   },
+   {
+    "slot": "S3",
+    "name": "I Sever Thine Advent!",
+    "type": "Blunt",
+    "sin": "Sloth",
+    "coin": "3"
+   },
+   {
+    "slot": "DEF",
+    "name": "Witness Ye in Silence",
+    "type": "Blunt",
+    "sin": "Sloth",
+    "coin": "2"
+   }
+  ],
+  "passives": [
+   {
+    "name": "Obsidian Covenant",
+    "text": "I heard His voice, His promise: \"Everything that exists has meaning.\""
+   },
+   {
+    "name": "Formation Conservation",
+    "text": "All allied Charge Identity take -2% damage this turn for every allied Charge Identity on the field at Combat Start (max -10%)"
+   }
+  ],
+  "voicelines": [
+   {
+    "occasion": "Identity Acquisition",
+    "english": "And thus saith the Lord: \"Unto Le Noir be contentment, and unto the Brand Manager be tribulation and hammer.\"\nWith this sacred duty in mine hand, I call thee to answer: art thou an adherent of the rules, or... a fomenter of anarchy?"
+   },
+   {
+    "occasion": "Morning Greeting",
+    "english": "Lo, a new season is upon us again. Once more shall we march forth in justice and valor. Lord, give me strength to gallop on through the trials in unfaltering adamance.\nLet Le Noir be laid upon the pedestal of fashion, which the hundreds of millions of customers at the Grand Magasin may worship and adore."
+   },
+   {
+    "occasion": "Afternoon Greeting",
+    "english": "As sunlight groweth intense, those abominable Néants press upon mine eyes... Though selfsame may their ultimate purpose be to the Rouges' endeavor... I would be loath to squander my vigilance on idlers who do naught but bask under the light in torpid indolence."
+   },
+   {
+    "occasion": "Evening Greeting",
+    "english": "Thus cometh the season's end. Brutal were the toils, and in our march, the many lames of the armor bestowed upon thee have been weathered and spent.\nThe Alterationist must be quite occupied at the moment... But pray, bestill thy heart, dearest Rocinante, for when today's labors end, we shall pay a visit to the fourth floor."
+   },
+   {
+    "occasion": "Chatter #1",
+    "english": "Our reputation hath taken a downward trend following our surrender of the Luxury Hall to the Rouges...\nIn seasons such as these, stratagem of premiumization and artificial scarcity have always proved to prevail.\n... To preserve the value and worth of our brand, I hereby issue a general recall. First, let us commence by recalling products sold to Le Kaki."
+   },
+   {
+    "occasion": "Chatter #2",
+    "english": "Though we have lost our stronghold on the second floor, prithee, do not lose heart! 'Tis not solely the Luxury Hall wherein the glory of Le Noir lies.\nI am the Brand Manager—'tis my responsibility to embrace even the Noirs who are ignoble, and assist them to raise their prestige to a level befitting that of Le Noir's name. Do what thou canst to help."
+   },
+   {
+    "occasion": "Chatter #3",
+    "english": "Thy warm consolation I receive with gratitude... yet my heart hath already sworn fealty unto a Voice, and I shan't fain abandon my loyalty.\n... Though unaware may the Obsidian God be... of my devotion."
+   },
+   {
+    "occasion": "Post-Uptie Chat 1",
+    "english": "'Tis no fancy of mine that the noble Voice showeth strange indifference to the sport of the \"false god\"...\nIs the breaking of order, too, but compliant threads of destiny as written...? Or does He see fit to assay my worth? *sigh* I must comb these snarls from mine own thoughts."
+   },
+   {
+    "occasion": "Post-Uptie Chat 2",
+    "english": "I had thought I settled this matter beneath silence's cloak, outside even the Floor Managers' peering eyes... So how have the wretched Rouges intercepted the Golden Skein meant for the Alterationist's hands?\nIf none of us Noirs have tattled this tale, then... Could it be—as preposterous a thought it is to entertain—that the false god hath stolen a glimpse of the prophecy?"
+   },
+   {
+    "occasion": "Idle",
+    "english": "... Silence hath befallen the shop. O Voice... whither have You gone? We of the Noir await Your coming."
+   },
+   {
+    "occasion": "Uptying",
+    "english": "The prophecy shall have its due—the dream of the Rouges will be consumed by stains of evil. I angle these nails mine upon thy dream of avarice and gluttony... and bring this hammer down with all my might."
+   },
+   {
+    "occasion": "Deployment",
+    "english": "A hammer once gripped must be brought down—that is simply the natural law."
+   },
+   {
+    "occasion": "Stage Entry",
+    "english": "Thou shalt make way in anticipation of my coming. Do this, and thy justice shan't fall to doubt."
+   },
+   {
+    "occasion": "Viewed in Battle",
+    "english": "Shh. Witness thou in silence, for the Obsidian God shall bestow upon us a blessing of His Voice anon."
+   },
+   {
+    "occasion": "Commencing Attack",
+    "english": "I shall be the vanguard, so that thou mayest find safety behind me."
+   },
+   {
+    "occasion": "Enemy Stagger",
+    "english": "Witness thou in silence."
+   },
+   {
+    "occasion": "Staggered",
+    "english": "... Profane."
+   },
+   {
+    "occasion": "Enemy Killed",
+    "english": "God's vengeance is swift and final."
+   },
+   {
+    "occasion": "Death",
+    "english": "I too... shall be... eternally preserved..."
+   },
+   {
+    "occasion": "Check Passed",
+    "english": "There can be no hesitation nor failure, for the Obsidian God watcheth over us."
+   },
+   {
+    "occasion": "Check Failed",
+    "english": "Despair ye not in the face of misfortune; 'tis but a portent of imminent providence."
+   },
+   {
+    "occasion": "Victory Cry",
+    "english": "Though many have fallen to the ground, forsooth... Thou needst not concern thyself, for every moment of our suffering is etched into and remembered by Grand Magasin Sisyphe itself.\nThe fallen Noirs, too, are fabric and pillar... who shall with us together weave eternity."
+   },
+   {
+    "occasion": "Extra Conditions Fulfilled",
+    "english": "... An orderly conclusion, drawn exactly as foretold by fate. Verily, the Obsidian God's wisdom is vast."
+   },
+   {
+    "occasion": "Defeat Wail",
+    "english": "I... have followed the path of unerring order... and never veered off course...\nEven when... the price of that devotion... was to be my life..."
+   },
+   {
+    "occasion": "Le Noir Identity deployed in Battle",
+    "english": "Act ye as order commandeth."
+   },
+   {
+    "occasion": "Haute Couture::The Crimson God of Le Rouge Sinclair deployed in Battle",
+    "english": "Mm... Thoroughly unpleasant this may be, yet it must be observed. O profane one, I shall stay thy judgment for the present."
+   },
+   {
+    "occasion": "Gaining Sanctum of Conservation (Don Quixote)",
+    "english": "Behold, I proclaim this land a hallowed sanctum. Radiant shall it shine."
+   },
+   {
+    "occasion": "rowspan=\"2\"|Using Skill 1-2 - Judgment!",
+    "english": "Radiance!"
+   },
+   {
+    "occasion": "rowspan=\"2\"|Using Skill 3-2 - With Each Smite, I Sever Thine Advent!",
+    "english": "Boundless is the weight of thy sins...\n... Divine punishment shall smite thee!"
+   }
+  ],
+  "thumb": "assets/identities/13-le-noir.webp",
+  "art": "assets/identities/large/13-le-noir.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/Haute_Couture::Le_Noir_Brand_Manager_Don_Quixote",
+  "card": {
+   "order": 13,
+   "label": "MW · 13",
+   "group": "other",
+   "accent": "#f5c86b",
+   "focus": "22%",
+   "world": "Grand Magasin Sisyphe · Le Noir",
+   "name": "Haute Couture::Le Noir Brand Manager",
+   "blurb": "Brand Manager faksi Le Noir: armor hitam berhias emas, cape hitam menyapu lantai, tanduk mirip pipa logam, halo, dan rambut sepanjang mata kaki. Tanpa Rocinante, dengan hammer raksasa.",
+   "tags": [
+    "Oversized hammer",
+    "No Rocinante"
+   ],
+   "sprite": false
+  }
+ },
+ {
+  "id": "14-egol-lantern",
+  "name": "Lobotomy E.G.O::Lantern",
+  "quote": "Have thee ever beheld a Lantern so grossly incandescent?\nRemain at my side, and darkness shall never consume us!",
+  "rarity": "00",
+  "world": "World of Lobotomy Corporation Headquarters - 1",
+  "season": "Season Walpurgisnacht - II",
+  "releasedate": "2024.01.11",
+  "traits": [
+   "Lobotomy Corp. Headquarters",
+   "E.G.O Gear"
+  ],
+  "hp": "82",
+  "speed": "4~6",
+  "defmod": "+4",
+  "resist": {
+   "slash": "Normal",
+   "pierce": "Ineff",
+   "blunt": "Fatal"
+  },
+  "skills": [
+   {
+    "slot": "S1",
+    "name": "I Shall Nibble Thee!",
+    "type": "Slash",
+    "sin": "Gluttony",
+    "coin": "1"
+   },
+   {
+    "slot": "S2",
+    "name": "Flashing Lure",
+    "type": "Slash",
+    "sin": "Lust",
+    "coin": "3"
+   },
+   {
+    "slot": "S3",
+    "name": "Whirlwind Om-Nom-Nom!",
+    "type": "Pierce",
+    "sin": "Gloom",
+    "coin": "3"
+   },
+   {
+    "slot": "DEF",
+    "name": "Chattering Teeth",
+    "type": "Guard",
+    "sin": "Gluttony",
+    "coin": "1"
+   }
+  ],
+  "passives": [
+   {
+    "name": "Om Nom Nom",
+    "text": "If this unit's Skill Slot has Aggro, Clash Power +1\nHeal 6 HP every time this unit hits enemies that targeted this unit with an Attack Skill in the Chaining Phase (For Abnormalities, each Part is calculated separately)"
+   },
+   {
+    "name": "Illumilantern",
+    "text": "The ally with the highest Aggro Skill Slot heals 4 HP every time they hit an enemy that targets this unit (Does not apply to units without Aggro)"
+   }
+  ],
+  "voicelines": [
+   {
+    "occasion": "Identity Acquisition",
+    "english": "Have thee ever beheld a Lantern so grossly incandescent? Remain at my side, and darkness shall never consume us!"
+   },
+   {
+    "occasion": "Morning Greeting",
+    "english": "Today is another day! Thus I shall toil to gather more energy. Dost thou not find thyself growing delighted at the notion of numerous happenings in this hallway today?"
+   },
+   {
+    "occasion": "Afternoon Greeting",
+    "english": "'Tis time for a midday meal. I am far from famished… alas, these little teeth fellows are chattering expectantly. Heh heh."
+   },
+   {
+    "occasion": "Evening Greeting",
+    "english": "Verily, is this not the time for the Lantern to shine?"
+   },
+   {
+    "occasion": "Chatter #1",
+    "english": "Come hither and behold, Manager Esquire! Is it not so fascinating to see such a beaut of a flower in the middle of a hallway? Lo! If I poke it so, it fidgets and twitches…"
+   },
+   {
+    "occasion": "Chatter #2",
+    "english": "FIE!!! Didst thou not hear the siren indicating that an Abnormality is on the loose? Make haste, make haste! Make way! 'Tis my chance to shine!"
+   },
+   {
+    "occasion": "Chatter #3",
+    "english": "Quite warm it is, this furry garb! Ah, take care not to pet it too much. It may nibble thy finger off. Or fingers…!"
+   },
+   {
+    "occasion": "Post-Uptie Chat 1",
+    "english": "Lady Outis <span style=\"color:#325339;\">(It's Captain Outis!)</span> has, ahem, shared aught with me… That I may be quite adept at playing the role of a 'bait'! Quickly hide behind me at the first sign of danger, thou must!"
+   },
+   {
+    "occasion": "Post-Uptie Chat 2",
+    "english": "Behold this Lantern for a while. Dost thou not feel the warm heart and good fortune rumbling within thyself?\nEven at a place such as this where good fortune seems so ill-available…"
+   },
+   {
+    "occasion": "Idle",
+    "english": "To where hast thou gone, Manager Esquire?! Thou mustn't let the Lantern ambush and nibble thee!"
+   },
+   {
+    "occasion": "Uptying",
+    "english": "I cannot contain my joy Manager Esquire!!! Prithee, bring forth more villains for me to thrash!"
+   },
+   {
+    "occasion": "Deployment",
+    "english": "I! Can be quite the excellent bait, if I do say so myself!"
+   },
+   {
+    "occasion": "Stage Entry",
+    "english": "Ah, my time to flash has come once again!"
+   },
+   {
+    "occasion": "Viewed in Battle",
+    "english": "Is there aught else to suppress?!"
+   },
+   {
+    "occasion": "Commencing Attack",
+    "english": "I shall chew thee to shreds!"
+   },
+   {
+    "occasion": "Enemy Stagger",
+    "english": "Just thee wait! Thou shall be devoured whole posthaste!"
+   },
+   {
+    "occasion": "Staggered",
+    "english": "… 'Twas but a moment of hesitation."
+   },
+   {
+    "occasion": "Enemy Killed",
+    "english": "Om nom."
+   },
+   {
+    "occasion": "Death",
+    "english": "So I have always… shone so brightly…"
+   },
+   {
+    "occasion": "Check Passed",
+    "english": "Ah… to follow the Lantern is to walk the path of answers!"
+   },
+   {
+    "occasion": "Check Failed",
+    "english": "The answer… yet remains out of sight."
+   },
+   {
+    "occasion": "Victory Cry",
+    "english": "Have I not flashed so radiantly today?!"
+   },
+   {
+    "occasion": "Extra Conditions Fulfilled",
+    "english": "Thus I have gobbled them up without a trace! I hope Miss Hod finds it within herself to compliment mine achievements!"
+   },
+   {
+    "occasion": "Defeat Wail",
+    "english": "Fie, I was the one to be gobbled up by these very fangs…"
+   }
+  ],
+  "thumb": "assets/identities/14-egol-lantern.webp",
+  "art": "assets/identities/large/14-egol-lantern.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/Lobotomy_E.G.O::Lantern_Don_Quixote",
+  "card": {
+   "order": 14,
+   "label": "MW · 14",
+   "group": "ego",
+   "accent": "#ff8f4d",
+   "focus": "70%",
+   "world": "Lobotomy Corp. HQ · Day 15",
+   "name": "Lobotomy E.G.O::Lantern",
+   "blurb": "Agen Tim Training di markas Lobotomy Corporation. Mengenakan E.G.O Suit “Lantern” berikut senjata dan gift-nya — dengan Rocinante tetap dipakai di dalam suit.",
+   "tags": [
+    "E.G.O Suit",
+    "Rocinante"
+   ],
+   "sprite": false
+  }
+ },
+ {
+  "id": "15-love-and-hate",
+  "name": "Lobotomy E.G.O::In the Name of Love and Hate",
+  "quote": "Behold! Herein are chronicled the tales of protectors of love and peace! Heh heh, verily, they are quite like us Magical Maidens!\n<span style=\"color:#ff6baa;\">Oooh…! So that's what Fixers do, huh?</span>",
+  "rarity": "000",
+  "world": "World of Lobotomy Corporation Headquarters - 1",
+  "season": "Season Walpurgisnacht - VI",
+  "releasedate": "2025.07.17",
+  "traits": [
+   "Lobotomy Corp. Headquarters",
+   "E.G.O Gear"
+  ],
+  "hp": "69",
+  "speed": "4~7",
+  "defmod": "+2",
+  "resist": {
+   "slash": "Fatal",
+   "pierce": "Ineff",
+   "blunt": "Normal"
+  },
+  "skills": [
+   {
+    "slot": "S1",
+    "name": "By Manager Esquire's Orders, I Am Here!",
+    "type": "Blunt",
+    "sin": "Wrath",
+    "coin": "2"
+   },
+   {
+    "slot": "S2",
+    "name": "With Love! Hyah!",
+    "type": "Blunt",
+    "sin": "Envy",
+    "coin": "2"
+   },
+   {
+    "slot": "S3",
+    "name": "Arcana Beats!! / Minor Arcana Slave!!!",
+    "type": "Blunt",
+    "sin": "Envy",
+    "coin": "3"
+   },
+   {
+    "slot": "DEF",
+    "name": "Rapid Chant",
+    "type": "Guard",
+    "sin": "Envy",
+    "coin": "1"
+   }
+  ],
+  "passives": [
+   {
+    "name": "Magical Girl of Love / Queen of Hatred",
+    "text": "Deal +2% damage for every Love-Hate (max 10%)\nCombat Start: gain 1 Magical Arcana"
+   },
+   {
+    "name": "Magical Power Charging Support",
+    "text": "If, among allies that gain Charge Count using their Base Attack Skills, 1 ally that has the least Charge Count uses a Base Attack Skill that gains Charge Count, the said ally gains +2 Charge Count (2 times per turn)\n- At 0 or higher SP: heal (Charge on target x 2) HP (max 10; heals up to 20 per turn)\n- At less than 0 SP: heal (Charge on target) SP (max 5; heals up to 10 per turn)"
+   }
+  ],
+  "voicelines": [
+   {
+    "occasion": "Identity Acquisition",
+    "english": "Behold! Herein are chronicled the tales of protectors of love and peace! Heh heh, verily, they are quite like us Magical Maidens!\n<span style=\"color:#ff6baa;\">Oooh…! So that's what Fixers do, huh?</span>"
+   },
+   {
+    "occasion": "Morning Greeting",
+    "english": "Ahhh~ Such early hours of the morn are cause for struggle for Magical Maidens. How is it that the unjust have such predilection for the wee hours of the night? As such, we are always sleep-deprived…"
+   },
+   {
+    "occasion": "Afternoon Greeting",
+    "english": "Fie, fie! It appeareth that the time for mine luncheon hath arrived already! I hardly noticed the time pass by, for I was engrossed in tales of thine heroism!\n<span style=\"color:#ff6baa;\">Hey, hold on! I've got an even more exciting story for you. It's about the time I was ambushed by Arcana…</span>\nHm?! That's, uh… v-verily, I shall forgo the midday meal to hear thy tale, then!!!"
+   },
+   {
+    "occasion": "Evening Greeting",
+    "english": "The hour is late, yet my work continueth… for Lady Magical Girl, my responsibility and a dear friend, hath deigned to enact justice at this hour! Forsooth, as an employee, 'tis mine obligation to assist her. Yaaaawn… Nngh, yet I am quite weary still…"
+   },
+   {
+    "occasion": "Chatter #1",
+    "english": "Peace and quiet are good qualities to have, are they not? 'Tis a place in which absurd horrors occur with such prevalence, thus… Hm? Ah, verily. 'Tis true that we are having a brief pocket of leisure at this moment. Ah, dost thou, perchance, find thyself mired in boredom? Then I have a remedy for thee! Behold, another issue of Fixers Monthly!"
+   },
+   {
+    "occasion": "Chatter #2",
+    "english": "In truth, I… ahem. I have been feeling quite indebted to thee. I heard in passing that I owe mine transfer and promotion to a Captain of the Central Command Team to my performance in managing thee… Thou hast not once broken containment succeeding thine assignment to my care, indeed? Hmm… ah, didst thou suppress thyself for my sake?!"
+   },
+   {
+    "occasion": "Chatter #3",
+    "english": "Nay! We live not in a binary world with a clear-cut demarcation of 'good' and 'evil'! We are all amalgamations that exist in precarious and complicated balance of both. Thus, I implore thee—harbor no such sad sentiments, for the existence of evil is not the sole measure of thine worth."
+   },
+   {
+    "occasion": "Post-Uptie Chat 1",
+    "english": "The Second Warning… hm! 'Tis evident! Now is the time for thee to deliver unto them the smiting of justice! Ho! With this hairpin and E.G.O Gear, thy most gracious gift… and do away with this chaos!"
+   },
+   {
+    "occasion": "Post-Uptie Chat 2",
+    "english": "Even if my life be made forfeit… I shall protect the employees of this establishment and the people of the City! Ho! Arcana… Beats!"
+   },
+   {
+    "occasion": "Idle",
+    "english": "Hmm… no warnings today, I must wonder… hup! Perish the thought… Nay, nay! I have definitely not harbored thoughts of boredom induced by the lack of eventful action, nay!!"
+   },
+   {
+    "occasion": "Uptying",
+    "english": "Hark, one and all! Cease thy panicking, for I am here! Cast upon me any task thou seest fit: Abnormality containment breach suppression, containment unit management, insane employee suppression, anything shall do! Prithee, do summon me, as I shall doubtless be of assistance!"
+   },
+   {
+    "occasion": "Deployment",
+    "english": "Prithee, leave it in my care!"
+   },
+   {
+    "occasion": "Stage Entry",
+    "english": "In the name of Love and Justice~ Here cometh Magical Maiden!"
+   },
+   {
+    "occasion": "rowspan=\"2\" |Viewed in Battle",
+    "english": "Gasp! Doth aught requireth mine assistance?"
+   },
+   {
+    "occasion": "Check Failed",
+    "english": "… I failed. Hast thou no need of me any longer?"
+   },
+   {
+    "occasion": "Victory Cry",
+    "english": "Heh heh, justice, served! Now… I must forthwith make haste and return to her to regale her with the haaaaai-lights of this suppression!"
+   },
+   {
+    "occasion": "Extra Conditions Fulfilled",
+    "english": "Dost thou know of the glory of victory and the beauty of the world therein? Nay? All good! For what we behold now, at this very moment… is just that."
+   },
+   {
+    "occasion": "Defeat Wail",
+    "english": "So… this is what it hath all come to. I'm just like them. I failed the suppression, I'm a useless— Nngh, get out of my head… The voices, make it stop…!"
+   },
+   {
+    "occasion": "Using Skill 2 - With Love! Hyah!",
+    "english": "With love!\nIn the name of justice!"
+   },
+   {
+    "occasion": "Using Skill 3 - Arcana Beats!! / Minor Arcana Slave!!!",
+    "english": "Arcana Beats!"
+   },
+   {
+    "occasion": "Using Skill 3 - Arcana Beats!! / Minor Arcana Slave!!! at 3+ Love-Hate Potency",
+    "english": "ARCANA... SLAVE!"
+   },
+   {
+    "occasion": "Gaining Regressive Transformation - Reversed",
+    "english": "Forgive... me... 'Twas my... failing... All of it..."
+   },
+   {
+    "occasion": "Using Skill 2-2 - Get out of my head...",
+    "english": "In the name of love and justice... ha."
+   },
+   {
+    "occasion": "Using Skill 3-2 - Reversed Beats / Reversed Arcana Slave",
+    "english": "*sigh* Arcana Beats."
+   },
+   {
+    "occasion": "Using Skill 3-2 - Reversed Beats / Reversed Arcana Slave and Consuming 3 Hysteria",
+    "english": "Begone...! Ngh, agh..."
+   },
+   {
+    "occasion": "Regaining Here Comes Magical Girl!",
+    "english": "...Hoh? Hath aught transpired?<ref>This voiceline is not officially translated in-game. Translations used with permission from [https://notherwael.github.io/LCB-ID-TLs/ Notherwael]</ref>"
+   }
+  ],
+  "thumb": "assets/identities/15-love-and-hate.webp",
+  "art": "assets/identities/large/15-love-and-hate.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/Lobotomy_E.G.O::In_the_Name_of_Love_and_Hate_Don_Quixote",
+  "card": {
+   "order": 15,
+   "label": "MW · 15",
+   "group": "ego",
+   "accent": "#ff7bd0",
+   "focus": "70%",
+   "world": "Lobotomy Corp. HQ",
+   "name": "Lobotomy E.G.O::In the Name of Love and Hate",
+   "blurb": "Mengenakan E.G.O Suit milik Queen of Hatred, lengkap dengan senjata dan gift-nya. Rambutnya dibiarkan panjang hingga tengah punggung, ditata menyerupai Abnormality itu.",
+   "tags": [
+    "E.G.O Suit",
+    "Queen of Hatred"
+   ],
+   "sprite": false
+  }
+ },
+ {
+  "id": "16-wedge",
+  "name": "Wedge Office Fixer",
+  "quote": "'Twas my spear that skewered the foe's throat last! Surely that kill is mine to claim? That leaves thee with two, young Sinclair. Fair's fair.\n<span style=\"color:#A8BF04\">What kind of logic is that? We both ran that one through—so that's two and a half each. Seriously, how do you say that with a straight face?</span>",
+  "rarity": "000",
+  "world": "World of the Former Library Guests - Wedge Office",
+  "season": "Season Walpurgisnacht - X",
+  "releasedate": "2026.11.12",
+  "traits": [
+   "Fixer",
+   "Wedge Office"
+  ],
+  "hp": "72",
+  "speed": "4~6",
+  "defmod": "+0",
+  "resist": {
+   "slash": "Normal",
+   "pierce": "Ineff",
+   "blunt": "Fatal"
+  },
+  "skills": [
+   {
+    "slot": "S1",
+    "name": "Collision",
+    "type": "Pierce",
+    "sin": "Sloth",
+    "coin": "1"
+   },
+   {
+    "slot": "S2",
+    "name": "Gap Strike",
+    "type": "Pierce",
+    "sin": "Gluttony",
+    "coin": "2"
+   },
+   {
+    "slot": "S3",
+    "name": "Speared Sweep",
+    "type": "Pierce",
+    "sin": "Pride",
+    "coin": "3"
+   },
+   {
+    "slot": "DEF",
+    "name": "Catch Breath",
+    "type": "Evade",
+    "sin": "Pride",
+    "coin": "1"
+   }
+  ],
+  "passives": [
+   {
+    "name": "Hunters of the City",
+    "text": "The streets of the City are never short of vile and savage company after dark. Rats desperate to turn their lives around, denizens of the Backstreets harboring dreams of revenge, Syndicates and Fingers embroiled in struggles over their interests… and, of course, the Sweepers.\nFor all the fortunes to be made from working after sundown, few Fixers are eager to accept such contracts. There are, however, those who find their greatest opportunities precisely where others dare not tread.\nThe discernment to read any situation with remarkable precision. The swiftness and thoroughness to bring a job to its conclusion without inviting further trouble. With these two qualities as its greatest assets, Wedge Office has weathered every contract and walked away with the handsome compensation that follows."
+   },
+   {
+    "name": "Reconnaissance",
+    "text": "When 1 ally with the fastest Speed uses a Skill to Clash, inflict 3 Tremor Potency on the target of the Clash (once per turn; for Focused Encounters, the Part)"
+   }
+  ],
+  "voicelines": [
+   {
+    "occasion": "Identity Acquisition",
+    "english": "<span style=\"color:#ffef23\">'Twas my spear that skewered the foe's throat last! Surely that kill is mine to claim? That leaves thee with two, young Sinclair. Fair's fair.</span>\n<span style=\"color:#A8BF04\">What kind of logic is that? We <i>both</i> ran that one through—so that's two and a half each. Seriously, how do you say that with a straight face?</span>"
+   },
+   {
+    "occasion": "Morning Greeting",
+    "english": "<span style=\"color:#ffef23\">Young Sinclair!! Come thee to the cupboard...! Prithee, fetch down the cereal...! Who saw fit to place it at such a lofty height?!</span>\n<span style=\"color:#A8BF04\">... I did. When I used to be able to reach it. Now I can't.</span>\n<span style=\"color:#ffef23\">W-well, that's...</span>\n<span style=\"color:#A8BF04\">You know, if you'd actually bothered to read the fine print on the insurance, I wouldn't have been stuck like this...</span>"
+   },
+   {
+    "occasion": "Afternoon Greeting",
+    "english": "<span style=\"color:#A8BF04\">\"Tangsu<i>yuk</i>\".</span> <span style=\"color:#ffef23\">\"Yukgae<i>jang</i>\"!</span> <span style=\"color:#A8BF04\">\"Jambon-beur<i>re</i>\".</span> <span style=\"color:#ffef23\">Re... \"Reblochon on potato gra<i>tin</i>\"!</span> <span style=\"color:#A8BF04\">Ugh... Tang... \"Tangba<i>o</i>\"...?</span> <span style=\"color:#ffef23\">O... \"Omuri<i>ce</i>\"! What sayest thou to that?</span> <span style=\"color:#A8BF04\">Heh. \"Smørre<i>brød</i>\".</span> <span style=\"color:#ffef23\">Ehhhh?! \"Ble\"? \"Bro\"? What manner of food is that?!</span> <span style=\"color:#A8BF04\">It's an open-faced sandwich. All right, then. Guess you're buying lunch today.</span> <span style=\"color:#ffef23\">*groan* Very well. I shall fetch some omurice... to go.</span>"
+   },
+   {
+    "occasion": "Evening Greeting",
+    "english": "<span style=\"color:#ffef23\">Nnngh...! *huff* *huff* Every evening... 'tis the same nightmare—those wretches tearing young Sinclair limb from limb, again and again...</span>\n<span style=\"color:#A8BF04\">...? Did you call me?</span>\n<span style=\"color:#ffef23\">Ah, n-nay! 'Tis nothing, nothing at all!</span>"
+   },
+   {
+    "occasion": "Chatter #1",
+    "english": "<span style=\"color:#A8BF04\">... Don Quixote, please tell me you haven't forgotten the upcoming insurance renewal.</span>\n<span style=\"color:#ffef23\">Hm?! N-nay, of course not...!</span>\n<span style=\"color:#A8BF04\">... And go over the add-ons. I swear, if you forget to get the clone body's growth shots covered again, I'm gonna... *sigh*</span>\n<span style=\"color:#ffef23\">'Twas my fault, forsooth... Have I not admitted my guilt often enough...?</span>"
+   },
+   {
+    "occasion": "Chatter #2",
+    "english": "<span style=\"color:#A8BF04\">Ugh... You know, you're getting <i>insufferable</i>. Nobody said you were wrong or anything.</span>\n<span style=\"color:#ffef23\">Verily, we ought to give him some space, young Sinclair... He hath yet to recover...</span>\n<span style=\"color:#A8BF04\">No, enough is enough. All we said was we'll work together on this one job 'cause Fixers who think like you aren't a good fit for our Office, simple as that. And you had to be a miserable ass about it out of the blue! Could you please... never mind. Look, you little—stop frowning already, would you?</span>"
+   },
+   {
+    "occasion": "Chatter #3",
+    "english": "<span style=\"color:#ffef23\">A wedge, thou seest, is a weapon most divorced from cleaving and crushing. Behold the pinpoint-keen tip of this spear mine: dost thou see?! 'Tis a weapon of unparalleled efficiency! A strike most singular and focus most fine requireth little strength to execute. Such is the work befitting a \"Wedge!\"\nConsequently! Those who seek our Office with a quest in their bosom expect no brute strength, nay; 'tis swiftness and precision... founded upon the bedrock of shrewd and precise situational assessment! Heh heh, <i>that</i> is what our Office is!</span>"
+   },
+   {
+    "occasion": "Post-Uptie Chat 1",
+    "english": "<span style=\"color:#A8BF04\">Not exactly the kind of situation where we can afford to be polite. I'll get to skewering you right away.</span>\n<span style=\"color:#ffef23\">As a Fixer, I can scarce afford proper etiquette when lives stand at stake! Surely thou canst understand!</span>"
+   },
+   {
+    "occasion": "Post-Uptie Chat 2",
+    "english": "<span style=\"color:#A8BF04\">Our Office has particularly low tolerance for dickheads who like to dress themselves up as \"selfless.\" Doubly so when the most selfish of them don't seem to realize that himself.</span>"
+   },
+   {
+    "occasion": "Idle",
+    "english": "<span style=\"color:#A8BF04\">... How long is that punk going to leech on our Office?</span>\n<span style=\"color:#ffef23\">Prithee, practice patience! Thou recallest Lady Outis's reassurance, dost thou not? He shall depart anon following this contract's completion.</span>"
+   },
+   {
+    "occasion": "Uptying",
+    "english": "<span style=\"color:#A8BF04\">Hey, don't glare at us now. We just poked you to make sure.</span>\n<span style=\"color:#ffef23\">Heh heh, I had heard that thou wert supposed to be \"nice\"—I expect naught else but the maximum generosity from thee!</span>"
+   },
+   {
+    "occasion": "rowspan=\"2\"|Deployment",
+    "english": "<span style=\"color:#ffef23\">Prithee, young Sinclair! Stay clear of position mine!</span>"
+   },
+   {
+    "occasion": "Extra Conditions Fulfilled",
+    "english": "<span style=\"color:#A8BF04\">They gave us some trouble, but—</span>\n<span style=\"color:#ffef23\">—verily, once accepted, no contract is beyond us!</span>\n<span style=\"color:#A8BF04\">Yeah, this contract was also—</span>\n<span style=\"color:#ffef23\">—settled in the Wedgiest fashion!</span>\n<span style=\"color:#A8BF04\">ARRRGH!!!!! Holy shit, can you stop cutting me off for one damn second?!</span>"
+   },
+   {
+    "occasion": "Defeat Wail",
+    "english": "<span style=\"color:#A8BF04\">Damn punk... I knew he'd hightail it the moment shit hit the fan...</span>\n<span style=\"color:#ffef23\">Alas... 'twas an expected outcome, was it not...?</span>\n<span style=\"color:#A8BF04\">Tsk, don't talk...! You're gonna lose more blood than insurance's willing to cover...</span>"
+   }
+  ],
+  "thumb": "assets/identities/16-wedge.webp",
+  "art": "assets/identities/large/16-wedge.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/Wedge_Office_Fixer_Don_Quixote",
+  "card": {
+   "order": 16,
+   "label": "MW · 16",
+   "group": "other",
+   "accent": "#8fe0d0",
+   "focus": "6%",
+   "world": "Former Library Guests · Wedge Office",
+   "name": "Wedge Office Fixer",
+   "blurb": "Don Quixote sebagai Fixer resmi Wedge Office, dari Walpurgisnacht X. Tombak panjang di tangan, dengan serangan pamungkas: “My Spear Shall Puncture Thee True!”",
+   "tags": [
+    "Spear",
+    "Walpurgisnacht"
+   ],
+   "sprite": false
+  }
+ },
+ {
+  "id": "17-early-elephants",
+  "name": "Early Elephants Sinnerling",
+  "quote": "",
+  "rarity": "0",
+  "world": "Limbus Kindergarten (event)",
+  "season": "Standar",
+  "releasedate": "",
+  "traits": [
+   "Early Elephants",
+   "Limbus Kindergarten"
+  ],
+  "hp": "66",
+  "speed": "2~5",
+  "defmod": "-2",
+  "resist": {
+   "slash": "Normal",
+   "pierce": "Ineffective",
+   "blunt": "Fatal"
+  },
+  "skills": [
+   {
+    "slot": "S1",
+    "name": "Jussis!",
+    "type": "Pierce",
+    "sin": "Lust",
+    "coin": "3"
+   },
+   {
+    "slot": "S2",
+    "name": "Jussis!!",
+    "type": "Pierce",
+    "sin": "Envy",
+    "coin": "2"
+   },
+   {
+    "slot": "S3",
+    "name": "Jussis!!!",
+    "type": "Pierce",
+    "sin": "Gluttony",
+    "coin": "3"
+   },
+   {
+    "slot": "DEF",
+    "name": "Jussis?",
+    "type": "Evade",
+    "sin": "—",
+    "coin": "1"
+   }
+  ],
+  "passives": [
+   {
+    "name": "Wicheous Retwibyushun",
+    "text": "On Clash Win, deal +10% damage with the Skill"
+   }
+  ],
+  "voicelines": [],
+  "thumb": "assets/identities/17-early-elephants.webp",
+  "art": "assets/identities/large/17-early-elephants.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/Early_Elephants_Sinnerling_Don_Quixote",
+  "card": {
+   "order": 17,
+   "label": "MW · 17",
+   "group": "other",
+   "accent": "#ffb4a2",
+   "focus": null,
+   "world": "Limbus Kindergarten · Early Elephants",
+   "name": "Early Elephants Sinnerling",
+   "blurb": "Versi “Sinnerling” cilik dari LCB Sinner, hanya muncul di event A Midspring Night’s Dream 3. Serangannya bernama “Jussis!”, “Jussis!!”, dan “Jussis!!!”.",
+   "tags": [
+    "Event",
+    "Pierce"
+   ],
+   "sprite": true
+  }
+ }
+]

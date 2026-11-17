@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Galeri E.G.O — Don Quixote · Fan Site</title>
+  <meta name="description" content="Semua E.G.O Don Quixote dari Limbus Company: artwork, kutipan awakening, efek serangan, passive, biaya sin, dan resistensi." />
+  <meta name="theme-color" content="#0a0910" />
+  <meta name="color-scheme" content="dark" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Don Quixote — Fan Site" />
+  <meta property="og:locale" content="id_ID" />
+  <meta property="og:title" content="Galeri E.G.O — Don Quixote · Fan Site" />
+  <meta property="og:description" content="Semua E.G.O Don Quixote dari Limbus Company: artwork, kutipan awakening, efek serangan, passive, biaya sin, dan resistensi." />
+  <meta property="og:image" content="assets/og/site.jpg" />
+  <meta property="og:image:alt" content="Galeri E.G.O Don Quixote" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Galeri E.G.O — Don Quixote · Fan Site" />
+  <meta name="twitter:description" content="Semua E.G.O Don Quixote dari Limbus Company: artwork, kutipan awakening, efek serangan, passive, biaya sin, dan resistensi." />
+  <meta name="twitter:image" content="assets/og/site.jpg" />
+  <meta name="twitter:image:alt" content="Galeri E.G.O Don Quixote" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="preload" href="assets/fonts/cinzel-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="assets/fonts/fonts.css" />
+  <noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="nav__brand" href="index.html">
+      <span class="nav__mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M11.2 2.4 12.7 9l6.6 1.6-6.6 1.6-1.5 6.6-1.5-6.6L3.1 10.6 9.7 9z" fill="currentColor" /><path d="M17.9 15.3 22 21.7" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" /></svg></span>
+      <span class="nav__name">DON QUIXOTE</span>
+    </a>
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Buka menu</span>
+    </button>
+    <nav class="nav__menu" id="navMenu">
+      <a href="index.html#profil">Profil</a>
+      <a href="index.html#dua-wajah">Dua Wajah</a>
+      <a href="index.html#rocinante">Rocinante</a>
+      <a href="index.html#kutipan">Kutipan</a>
+      <a href="index.html#perjalanan">Perjalanan</a>
+      <a href="index.html#galeri">Galeri</a>
+      <a href="ego.html" class="is-active">E.G.O</a>
+      <a href="index.html#trivia">Trivia</a>
+    </nav>
+  </header>
+
+    <section class="ego-hero">
+      <a class="detail__back" href="index.html#galeri">&larr; Kembali ke situs utama</a>
+      <p class="eyebrow">E.G.O · 10 Total</p>
+      <h1>E.G.O <span>Don Quixote</span></h1>
+      <p class="section__desc">
+        Setiap E.G.O adalah wujud keinginan yang mengeras menjadi senjata. Berikut seluruh E.G.O
+        Don Quixote — dari E.G.O dasar <em>La Sangre de Sancho</em> sampai <em>Yearning-Mircalla</em>
+        bertingkat WAW. Klik kartu untuk melihat efek coin lengkap dan varian Corrosion-nya.
+      </p>
+      <div class="ego-stats">
+        <div><strong>2</strong><span>ZAYIN</span></div>
+        <div><strong>3</strong><span>TETH</span></div>
+        <div><strong>3</strong><span>HE</span></div>
+        <div><strong>2</strong><span>WAW</span></div>      </div>
+    </section>
+
+    <div class="gallery-tools">
+      <label class="gallery-search">
+        <span class="sr-only">Cari E.G.O</span>
+        <input type="search" id="egoSearch" placeholder="Cari nama, sin, tingkat, atau Abnormalitas&hellip;" autocomplete="off" />
+      </label>
+      <div class="gallery-filters" role="group" aria-label="Filter tingkat risiko">
+        <button type="button" class="filter egofilter is-active" data-risk="all" aria-pressed="true">Semua <span>10</span></button>
+        <button type="button" class="filter egofilter" data-risk="ZAYIN" aria-pressed="false">ZAYIN</button>
+        <button type="button" class="filter egofilter" data-risk="TETH" aria-pressed="false">TETH</button>
+        <button type="button" class="filter egofilter" data-risk="HE" aria-pressed="false">HE</button>
+        <button type="button" class="filter egofilter" data-risk="WAW" aria-pressed="false">WAW</button>
+      </div>
+      <label class="gallery-sort">
+        <span class="sr-only">Urutkan E.G.O</span>
+        <select id="egoSort" autocomplete="off">
+          <option value="default">Urutan rilis</option>
+          <option value="newest">Rilis terbaru</option>
+          <option value="oldest">Rilis terlama</option>
+          <option value="cost-desc">Biaya sin tertinggi</option>
+          <option value="cost-asc">Biaya sin terendah</option>
+        </select>
+      </label>
+      <p class="gallery-count" id="egoCount" aria-live="polite">Menampilkan 10 dari 10 E.G.O</p>
+    </div>
+
+    <div class="ego-grid">
+      <article class="egocard reveal" data-risk="ZAYIN" data-release="20230227" data-cost="4" style="--accent: #ff7bd0">
+        <div class="egocard__art">
+          <img src="assets/ego/01-la-sangre.webp" alt="Artwork La Sangre de Sancho Don Quixote" width="640" height="640" loading="lazy" decoding="async" />
+          <div class="egocard__badges">
+            <span class="ebadge">Lust</span>
+            <span class="ebadge">ZAYIN</span>
+          </div>
+        </div>
+        <div class="egocard__body">
+          <h2>La Sangre de Sancho</h2>
+          <p class="egocard__quote">Gallop on, Rocinante! Justice shall prevail!</p>
+          <p class="egocard__note">E.G.O dasar yang jadi senjata pertama Don Quixote: menusuk dengan Lust, menumpuk 8 Bleed, lalu memulihkan HP sebesar separuh damage yang dihasilkan. Passive-nya menambal 3 HP setiap kali ia menyerang target yang sedang berdarah.</p>
+          <dl class="egocard__meta">
+            <div><dt>Didapat</dt><dd>Base E.G.O</dd></div>
+            <div><dt>Rilis</dt><dd>2023.02.27</dd></div>
+            <div><dt>Biaya</dt><dd>Lust 2, Pride 2</dd></div>
+            <div><dt>Abnormality</dt><dd>—</dd></div>
+          </dl>
+          <a class="egocard__link" href="ego/01-la-sangre.html">Efek coin &amp; Corrosion &rarr;</a>
+        </div>
+      </article>
+      <article class="egocard reveal" data-risk="HE" data-release="20230227" data-cost="7" style="--accent: #45e0ff">
+        <div class="egocard__art">
+          <img src="assets/ego/05-fluid-sac.webp" alt="Artwork Fluid Sac Don Quixote" width="640" height="640" loading="lazy" decoding="async" />
+          <div class="egocard__badges">
+            <span class="ebadge">Gloom</span>
+            <span class="ebadge">HE</span>
+          </div>
+        </div>
+        <div class="egocard__body">
+          <h2>Fluid Sac</h2>
+          <p class="egocard__quote">Have at thee to boot!</p>
+          <p class="egocard__note">Menyerang dengan Gloom, memicu Tremor Burst, dan merusak SP target sebesar 25 — makin berbahaya ketika musuh sudah Staggered atau panik. Biayanya berat di Gloom, jadi pas untuk mematahkan mental lawan, bukan sekadar mengikis HP.</p>
+          <dl class="egocard__meta">
+            <div><dt>Didapat</dt><dd>Battle Pass - Level 18 (Paid)</dd></div>
+            <div><dt>Rilis</dt><dd>2023.02.27</dd></div>
+            <div><dt>Biaya</dt><dd>Lust 1, Gloom 4, Pride 2</dd></div>
+            <div><dt>Abnormality</dt><dd>Headless Ichthys</dd></div>
+          </dl>
+          <a class="egocard__link" href="ego/05-fluid-sac.html">Efek coin &amp; Corrosion &rarr;</a>
+        </div>
+      </article>
+      <article class="egocard reveal" data-risk="HE" data-release="20230330" data-cost="5" style="--accent: #b86bff">
+        <div class="egocard__art">
+          <img src="assets/ego/06-telepole.webp" alt="Artwork Telepole Don Quixote" width="640" height="640" loading="lazy" decoding="async" />
+          <div class="egocard__badges">
+            <span class="ebadge">Envy</span>
+            <span class="ebadge">HE</span>
+          </div>
+        </div>
+        <div class="egocard__body">
+          <h2>Telepole</h2>
+          <p class="egocard__quote">Ho! I shall electrocute them all!!!</p>
+          <p class="egocard__note">Baterai Charge untuk seluruh tim: menyerang dengan Envy, memberi +10 Charge bagi pemakainya, lalu membagikan Charge ke rekan berdasarkan Envy Resonance. Passive-nya menambah Charge ke satu sekutu acak di awal pertempuran.</p>
+          <dl class="egocard__meta">
+            <div><dt>Didapat</dt><dd>Extraction</dd></div>
+            <div><dt>Rilis</dt><dd>2023.03.30</dd></div>
+            <div><dt>Biaya</dt><dd>Wrath 1, Gloom 2, Envy 2</dd></div>
+            <div><dt>Abnormality</dt><dd>Alleyway Watchdog</dd></div>
+          </dl>
+          <a class="egocard__link" href="ego/06-telepole.html">Efek coin &amp; Corrosion &rarr;</a>
+        </div>
+      </article>
+      <article class="egocard reveal" data-risk="TETH" data-release="20230420" data-cost="5" style="--accent: #ff7bd0">
+        <div class="egocard__art">
+          <img src="assets/ego/02-lifetime-stew.webp" alt="Artwork Lifetime Stew Don Quixote" width="640" height="640" loading="lazy" decoding="async" />
+          <div class="egocard__badges">
+            <span class="ebadge">Lust</span>
+            <span class="ebadge">TETH</span>
+          </div>
+        </div>
+        <div class="egocard__body">
+          <h2>Lifetime Stew</h2>
+          <p class="egocard__quote">Salutations!!!!!! I implore thee to try this soup!!!!</p>
+          <p class="egocard__note">E.G.O dari event Hell&#x27;s Chicken yang sekaligus menambal kebutuhan resource: passive-nya mengubah 2 resource non-Lust menjadi 1 Lust setiap awal turn. Serangannya berbasis Blunt dan menambah 3 Burn Count.</p>
+          <dl class="egocard__meta">
+            <div><dt>Didapat</dt><dd>Hell&#x27;s Chicken - Coupon Trade-in</dd></div>
+            <div><dt>Rilis</dt><dd>2023.04.20</dd></div>
+            <div><dt>Biaya</dt><dd>Lust 5</dd></div>
+            <div><dt>Abnormality</dt><dd>Basilisoup</dd></div>
+          </dl>
+          <a class="egocard__link" href="ego/02-lifetime-stew.html">Efek coin &amp; Corrosion &rarr;</a>
+        </div>
+      </article>
+      <article class="egocard reveal" data-risk="TETH" data-release="20240215" data-cost="5" style="--accent: #e0a63c">
+        <div class="egocard__art">
+          <img src="assets/ego/03-wishing-cairn.webp" alt="Artwork Wishing Cairn Don Quixote" width="640" height="640" loading="lazy" decoding="async" />
+          <div class="egocard__badges">
+            <span class="ebadge">Sloth</span>
+            <span class="ebadge">TETH</span>
+          </div>
+        </div>
+        <div class="egocard__body">
+          <h2>Wishing Cairn</h2>
+          <p class="egocard__quote">Now, let us make our wishes! I wish for this rock to smite thee true and willing!</p>
+          <p class="egocard__note">Melempar batu berbasis Sloth yang menumpuk Bleed Count, menanam Tremor, dan menyisipkan Paralyze lewat Heads Hit. Passive-nya memberi Poise setiap kali ia membunuh musuh yang berdarah — cocok untuk rantai pembunuhan.</p>
+          <dl class="egocard__meta">
+            <div><dt>Didapat</dt><dd>Extraction</dd></div>
+            <div><dt>Rilis</dt><dd>2024.02.15</dd></div>
+            <div><dt>Biaya</dt><dd>Wrath 2, Sloth 2, Pride 1</dd></div>
+            <div><dt>Abnormality</dt><dd>Pagoda Veneration</dd></div>
+          </dl>
+          <a class="egocard__link" href="ego/03-wishing-cairn.html">Efek coin &amp; Corrosion &rarr;</a>
+        </div>
+      </article>
+      <article class="egocard reveal" data-risk="TETH" data-release="20240411" data-cost="6" style="--accent: #b86bff">
+        <div class="egocard__art">
+          <img src="assets/ego/04-electric-screaming.webp" alt="Artwork Electric Screaming Don Quixote" width="640" height="640" loading="lazy" decoding="async" />
+          <div class="egocard__badges">
+            <span class="ebadge">Envy</span>
+            <span class="ebadge">TETH</span>
+          </div>
+        </div>
+        <div class="egocard__body">
+          <h2>Electric Screaming</h2>
+          <p class="egocard__quote">What color do thine eyes behold in this electric spark?!</p>
+          <p class="egocard__note">Serangan Pierce berbiaya Envy yang menghasilkan Charge setiap kali membunuh target. Passive-nya memberi Attack Power Up pada turn berikutnya bila target tumbang oleh skill Slash atau Envy.</p>
+          <dl class="egocard__meta">
+            <div><dt>Didapat</dt><dd>Battle Pass - Level 55 (Free)</dd></div>
+            <div><dt>Rilis</dt><dd>2024.04.11</dd></div>
+            <div><dt>Biaya</dt><dd>Pride 2, Envy 4</dd></div>
+            <div><dt>Abnormality</dt><dd>Dreaming Electric Sheep</dd></div>
+          </dl>
+          <a class="egocard__link" href="ego/04-electric-screaming.html">Efek coin &amp; Corrosion &rarr;</a>
+        </div>
+      </article>
+      <article class="egocard reveal" data-risk="WAW" data-release="20241024" data-cost="12" style="--accent: #ff7bd0">
+        <div class="egocard__art">
+          <img src="assets/ego/10-yearning-mircalla.webp" alt="Artwork Yearning-Mircalla Don Quixote" width="640" height="640" loading="lazy" decoding="async" />
+          <div class="egocard__badges">
+            <span class="ebadge">Lust</span>
+            <span class="ebadge">WAW</span>
+          </div>
+        </div>
+        <div class="egocard__body">
+          <h2>Yearning-Mircalla</h2>
+          <p class="egocard__quote">Steeped in the blood of all… yes…!
+Blossom in euphoria, blossom! Oh, blossom!</p>
+          <p class="egocard__note">E.G.O WAW dengan empat coin yang tumbuh seiring Bloodfeast yang tersedot — makanya paling bersinar di komposisi Bleed. Passive-nya memulihkan SP setiap kali 10+ damage Bleed terjadi.</p>
+          <dl class="egocard__meta">
+            <div><dt>Didapat</dt><dd>Battle Pass - Level 120 (Paid)</dd></div>
+            <div><dt>Rilis</dt><dd>2024.10.24</dd></div>
+            <div><dt>Biaya</dt><dd>Lust 5, Gluttony 3, Pride 2, Envy 2</dd></div>
+            <div><dt>Abnormality</dt><dd>Four-hundred Roses</dd></div>
+          </dl>
+          <a class="egocard__link" href="ego/10-yearning-mircalla.html">Efek coin &amp; Corrosion &rarr;</a>
+        </div>
+      </article>
+      <article class="egocard reveal" data-risk="HE" data-release="20250522" data-cost="9" style="--accent: #ffb4a2">
+        <div class="egocard__art">
+          <img src="assets/ego/07-red-sheet.webp" alt="Artwork Red Sheet Don Quixote" width="640" height="640" loading="lazy" decoding="async" />
+          <div class="egocard__badges">
+            <span class="ebadge">Gluttony</span>
+            <span class="ebadge">HE</span>
+          </div>
+        </div>
+        <div class="egocard__body">
+          <h2>Red Sheet</h2>
+          <p class="egocard__quote">Heheh! Thou art quite full of wishes… Which of them dost thou desire to see come true?!</p>
+          <p class="egocard__note">Menebar Twisted Curse Talisman berbasis Gluttony yang jumlahnya bertambah mengikuti Gluttony Resonance. Passive-nya memperlemah musuh yang sudah menumpuk 15+ Rupture atau yang terkena Critical Hit.</p>
+          <dl class="egocard__meta">
+            <div><dt>Didapat</dt><dd>Battle Pass -
+Level 30 (Free)</dd></div>
+            <div><dt>Rilis</dt><dd>2025.05.22</dd></div>
+            <div><dt>Biaya</dt><dd>Lust 1, Gluttony 5, Gloom 2, Pride 1</dd></div>
+            <div><dt>Abnormality</dt><dd>So That No One Will Cry</dd></div>
+          </dl>
+          <a class="egocard__link" href="ego/07-red-sheet.html">Efek coin &amp; Corrosion &rarr;</a>
+        </div>
+      </article>
+      <article class="egocard reveal" data-risk="WAW" data-release="20250717" data-cost="12" style="--accent: #b86bff">
+        <div class="egocard__art">
+          <img src="assets/ego/09-love-and-hate.webp" alt="Artwork In the Name of Love and Hate Don Quixote" width="640" height="640" loading="lazy" decoding="async" />
+          <div class="egocard__badges">
+            <span class="ebadge">Envy</span>
+            <span class="ebadge">WAW</span>
+          </div>
+        </div>
+        <div class="egocard__body">
+          <h2>In the Name of Love and Hate</h2>
+          <p class="egocard__quote">Heed me, thou that art more azure than justice and more crimson than love…
+In the name of those buried in destiny… I shall make this oath to the light.
+Mark the hateful beings who stand before us…
+Let your strength merge with mine, so that we may deliver the power of love to all…
+ARCANA SLAVE!</p>
+          <p class="egocard__note">E.G.O WAW warisan Queen of Hatred: serangan Blunt dua coin yang mengumpulkan Charge hingga 10 per turn. Passive-nya memberi Charge tambahan setiap 10 Charge yang dipakai, mempercepat siklus serangnya.</p>
+          <dl class="egocard__meta">
+            <div><dt>Didapat</dt><dd>Extraction</dd></div>
+            <div><dt>Rilis</dt><dd>2025.07.17</dd></div>
+            <div><dt>Biaya</dt><dd>Wrath 2, Gloom 2, Pride 2, Envy 6</dd></div>
+            <div><dt>Abnormality</dt><dd>The Queen of Hatred</dd></div>
+          </dl>
+          <a class="egocard__link" href="ego/09-love-and-hate.html">Efek coin &amp; Corrosion &rarr;</a>
+        </div>
+      </article>
+      <article class="egocard reveal" data-risk="ZAYIN" data-release="20260806" data-cost="5" style="--accent: #b86bff">
+        <div class="egocard__art">
+          <img src="assets/ego/08-scissors.webp" alt="Artwork I&#x27;ll Go fer Scissors. How &#x27;Bout You? Don Quixote" width="640" height="640" loading="lazy" decoding="async" />
+          <div class="egocard__badges">
+            <span class="ebadge">Envy</span>
+            <span class="ebadge">ZAYIN</span>
+          </div>
+        </div>
+        <div class="egocard__body">
+          <h2>I&#x27;ll Go fer Scissors. How &#x27;Bout You?</h2>
+          <p class="egocard__quote">Thou hast lost! Now, rules are rules… Thus forfeit thine arm anon!</p>
+          <p class="egocard__note">E.G.O Envy paling baru (Agustus 2026): memberi Power Down saat menang clash dan menumpuk efek tambahan pada hit. Passive-nya menaikkan damage skill Envy hingga +10%, bertambah lagi mengikuti Envy Resonance.</p>
+          <dl class="egocard__meta">
+            <div><dt>Didapat</dt><dd>Extraction</dd></div>
+            <div><dt>Rilis</dt><dd>2026.08.06</dd></div>
+            <div><dt>Biaya</dt><dd>Envy 5</dd></div>
+            <div><dt>Abnormality</dt><dd>Will You Play?</dd></div>
+          </dl>
+          <a class="egocard__link" href="ego/08-scissors.html">Efek coin &amp; Corrosion &rarr;</a>
+        </div>
+      </article>
+    </div>
+
+    <p class="gallery__empty" id="egoEmpty" hidden>
+      Tidak ada E.G.O yang cocok. Coba kata kunci lain.
+    </p>
+
+    <p class="gallery__note" style="max-width: 78rem; margin: 0 auto; padding: 0 var(--pad) 3rem;">
+      Tingkat tertinggi: Yearning-Mircalla (WAW) &middot;
+      rilis terbaru: I&#x27;ll Go fer Scissors. How &#x27;Bout You? (2026.08.06).
+      Artwork E.G.O milik Project Moon, bersumber dari Limbus Company Wiki (CC BY-SA 4.0).
+    </p>
+
+
+  <footer class="footer">
+    <div class="footer__star" aria-hidden="true">&#10022;</div>
+    <p class="footer__title">&ldquo;Dream the impossible dream.&rdquo;</p>
+    <p class="footer__note">
+      Fan site tidak resmi, dibuat oleh penggemar. <em>Limbus Company</em> dan seluruh karakternya
+      adalah milik Project Moon. Materi referensi dari Limbus Company Wiki (CC BY-SA 4.0).
+    </p>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>

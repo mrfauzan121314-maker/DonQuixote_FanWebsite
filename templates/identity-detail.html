@@ -1,0 +1,46 @@
+  <main class="detail" style="--accent: {{accent}}">
+    <a class="detail__back" href="../index.html#galeri">&larr; Kembali ke galeri Identity</a>
+
+    <section class="detail__hero">
+      <img src="../{{art}}"
+           srcset="../{{thumb}} 640w, ../{{art}} 1000w"
+           sizes="(max-width: 880px) 92vw, 40vw"
+           alt="Artwork {{name}}" width="1000" height="563" decoding="async" fetchpriority="high" />
+      <div class="detail__meta">
+        <div class="detail__badge">{{rarity}}</div>
+        <p class="eyebrow">Identity &middot; {{world}}</p>
+        <h1>{{name}}</h1>
+{{quote}}      </div>
+    </section>
+
+    <div class="detail__grid">
+      <section class="detail__panel">
+        <h2>Statistik singkat</h2>
+        <dl class="detail__stats">
+{{stats}}
+        </dl>
+{{traits}}      </section>
+
+      <section class="detail__panel">
+        <h2>Skill</h2>
+{{skills}}
+      </section>
+    </div>
+
+    <section class="detail__panel detail__panel--wide">
+      <h2>Passive</h2>
+{{passives}}
+    </section>
+
+    <section class="detail__panel detail__panel--wide" id="voiceline">
+      <h2>Voiceline <span class="detail__count">{{voiceline_count}}</span></h2>
+{{voicelines}}
+    </section>
+
+{{pager}}
+
+    <p class="detail__source">
+      Sumber data: <a href="{{wiki}}" target="_blank" rel="noopener noreferrer">Limbus Company Wiki</a>.
+      Angka dan teks mengikuti versi wiki saat situs ini dibangun.
+    </p>
+  </main>

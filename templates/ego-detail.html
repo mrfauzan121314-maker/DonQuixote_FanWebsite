@@ -1,0 +1,54 @@
+  <main class="detail" style="--accent: {{accent}}">
+    <a class="detail__back" href="../ego.html">&larr; Kembali ke galeri E.G.O</a>
+
+    <section class="edetail__top">
+      <div class="edetail__art">
+        <img src="../{{art}}" alt="Artwork {{name}} Don Quixote" width="640" height="640" decoding="async" fetchpriority="high" />
+      </div>
+      <div>
+        <div class="edetail__badges">
+          {{badges}}
+        </div>
+        <h1 class="edetail__title">{{name}}</h1>
+{{quote}}        <dl class="edetail__facts">
+{{facts}}
+        </dl>
+      </div>
+    </section>
+
+    <div class="detail__grid">
+      <section class="detail__panel">
+        <h2>Resistensi</h2>
+{{resist}}
+      </section>
+
+      <section class="detail__panel">
+        <h2>Passive</h2>
+        <div class="passives">
+{{passive}}
+        </div>
+      </section>
+    </div>
+
+    <section class="detail__panel detail__panel--wide">
+      <h2>Awakening</h2>
+{{awakening}}
+    </section>
+
+    <section class="detail__panel detail__panel--wide">
+      <h2>Corrosion</h2>
+{{corrosion}}
+    </section>
+
+    <section class="detail__panel detail__panel--wide">
+      <h2>Threadspin 2&ndash;4</h2>
+{{threadspin}}
+    </section>
+
+{{pager}}
+
+    <p class="detail__source">
+      Sumber data: <a href="{{wiki}}" target="_blank" rel="noopener noreferrer">Limbus Company Wiki</a>.
+      Angka mengikuti data dasar di wiki saat situs ini dibangun; nilai dapat berubah setelah Threadspin.
+    </p>
+  </main>

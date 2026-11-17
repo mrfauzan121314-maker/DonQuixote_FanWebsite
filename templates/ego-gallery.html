@@ -1,0 +1,49 @@
+    <section class="ego-hero">
+      <a class="detail__back" href="index.html#galeri">&larr; Kembali ke situs utama</a>
+      <p class="eyebrow">E.G.O · {{total}} Total</p>
+      <h1>E.G.O <span>Don Quixote</span></h1>
+      <p class="section__desc">
+        Setiap E.G.O adalah wujud keinginan yang mengeras menjadi senjata. Berikut seluruh E.G.O
+        Don Quixote — dari E.G.O dasar <em>La Sangre de Sancho</em> sampai <em>Yearning-Mircalla</em>
+        bertingkat WAW. Klik kartu untuk melihat efek coin lengkap dan varian Corrosion-nya.
+      </p>
+      <div class="ego-stats">
+{{stats}}      </div>
+    </section>
+
+    <div class="gallery-tools">
+      <label class="gallery-search">
+        <span class="sr-only">Cari E.G.O</span>
+        <input type="search" id="egoSearch" placeholder="Cari nama, sin, tingkat, atau Abnormalitas&hellip;" autocomplete="off" />
+      </label>
+      <div class="gallery-filters" role="group" aria-label="Filter tingkat risiko">
+        <button type="button" class="filter egofilter is-active" data-risk="all" aria-pressed="true">Semua <span>{{total}}</span></button>
+        <button type="button" class="filter egofilter" data-risk="ZAYIN" aria-pressed="false">ZAYIN</button>
+        <button type="button" class="filter egofilter" data-risk="TETH" aria-pressed="false">TETH</button>
+        <button type="button" class="filter egofilter" data-risk="HE" aria-pressed="false">HE</button>
+        <button type="button" class="filter egofilter" data-risk="WAW" aria-pressed="false">WAW</button>
+      </div>
+      <label class="gallery-sort">
+        <span class="sr-only">Urutkan E.G.O</span>
+        <select id="egoSort" autocomplete="off">
+          <option value="default">Urutan rilis</option>
+          <option value="newest">Rilis terbaru</option>
+          <option value="oldest">Rilis terlama</option>
+          <option value="cost-desc">Biaya sin tertinggi</option>
+          <option value="cost-asc">Biaya sin terendah</option>
+        </select>
+      </label>
+      <p class="gallery-count" id="egoCount" aria-live="polite">Menampilkan {{total}} dari {{total}} E.G.O</p>
+    </div>
+
+    <div class="ego-grid">
+{{cards}}
+    </div>
+
+    <p class="gallery__empty" id="egoEmpty" hidden>
+      Tidak ada E.G.O yang cocok. Coba kata kunci lain.
+    </p>
+
+    <p class="gallery__note" style="max-width: 78rem; margin: 0 auto; padding: 0 var(--pad) 3rem;">
+{{footer_note}}
+    </p>

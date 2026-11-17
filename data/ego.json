@@ -1,0 +1,1099 @@
+[
+ {
+  "id": "01-la-sangre",
+  "name": "La Sangre de Sancho",
+  "page": "La Sangre de Sancho Don Quixote",
+  "quote": "Gallop on, Rocinante! Justice shall prevail!",
+  "sin": "Lust",
+  "risk": "ZAYIN",
+  "releasedate": "2023.02.27",
+  "obtained": "Base E.G.O",
+  "costs": [
+   "Lust 2",
+   "Pride 2"
+  ],
+  "resist": [
+   "Wrath Fatal",
+   "Lust Endure",
+   "Gloom Fatal"
+  ],
+  "passive": {
+   "name": "Immoderate Passion",
+   "text": "On Hit, if target has Bleed, heal 3 HP"
+  },
+  "skill": {
+   "name": "La Sangre de Sancho",
+   "type": "Pierce",
+   "coin": "1",
+   "effect": "[On Hit] Inflict 8 Bleed\n[On Hit] Heal by 50% of damage dealt"
+  },
+  "art": "assets/ego/01-la-sangre.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/La_Sangre_de_Sancho_Don_Quixote",
+  "note": "E.G.O dasar yang jadi senjata pertama Don Quixote: menusuk dengan Lust, menumpuk 8 Bleed, lalu memulihkan HP sebesar separuh damage yang dihasilkan. Passive-nya menambal 3 HP setiap kali ia menyerang target yang sedang berdarah.",
+  "abnormality": "",
+  "asanity": "10",
+  "csanity": "",
+  "cquote": "",
+  "resist_full": [
+   {
+    "sin": "Wrath",
+    "value": "Fatal"
+   },
+   {
+    "sin": "Lust",
+    "value": "Endure"
+   },
+   {
+    "sin": "Sloth",
+    "value": "Normal"
+   },
+   {
+    "sin": "Gluttony",
+    "value": "Normal"
+   },
+   {
+    "sin": "Gloom",
+    "value": "Fatal"
+   },
+   {
+    "sin": "Pride",
+    "value": "Normal"
+   },
+   {
+    "sin": "Envy",
+    "value": "Normal"
+   }
+  ],
+  "awakening": {
+   "name": "La Sangre de Sancho",
+   "sin": "Lust",
+   "type": "Pierce",
+   "spower": "12",
+   "cpower": "+ 14",
+   "coin": "1",
+   "atkweight": "1",
+   "effects": [
+    "[On Hit] Inflict 8 Bleed\n[On Hit] Heal by 50% of damage dealt"
+   ]
+  },
+  "corrosion": null,
+  "threadspin": {}
+ },
+ {
+  "id": "05-fluid-sac",
+  "name": "Fluid Sac",
+  "page": "Fluid Sac Don Quixote",
+  "quote": "Have at thee to boot!",
+  "sin": "Gloom",
+  "risk": "HE",
+  "releasedate": "2023.02.27",
+  "obtained": "Battle Pass - Level 18 (Paid)",
+  "costs": [
+   "Lust 1",
+   "Gloom 4",
+   "Pride 2"
+  ],
+  "resist": [
+   "Lust Endure",
+   "Gloom Ineff",
+   "Pride Fatal",
+   "Envy Fatal"
+  ],
+  "passive": {
+   "name": "Wave of Depression",
+   "text": "The target of the rightmost Skill on the Dashboard loses (2 x Gloom A-Reson.) SP at the Skill's Attack End (targets that are Non-SP Units take Gloom damage instead)"
+  },
+  "skill": {
+   "name": "Fluid Sac",
+   "type": "Blunt",
+   "coin": "1",
+   "effect": "[On Hit] Trigger Tremor Burst\n[On Hit] Deal 25 SP damage\nIf target is Staggered, in Low Morale, or in Panic, deal 30% of damage dealt as bonus damage\n[On Hit] Inflict 2 Sinking"
+  },
+  "art": "assets/ego/05-fluid-sac.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/Fluid_Sac_Don_Quixote",
+  "note": "Menyerang dengan Gloom, memicu Tremor Burst, dan merusak SP target sebesar 25 — makin berbahaya ketika musuh sudah Staggered atau panik. Biayanya berat di Gloom, jadi pas untuk mematahkan mental lawan, bukan sekadar mengikis HP.",
+  "abnormality": "Headless Ichthys",
+  "asanity": "20",
+  "csanity": "20",
+  "cquote": "…Crush them.",
+  "resist_full": [
+   {
+    "sin": "Wrath",
+    "value": "Normal"
+   },
+   {
+    "sin": "Lust",
+    "value": "Endure"
+   },
+   {
+    "sin": "Sloth",
+    "value": "Normal"
+   },
+   {
+    "sin": "Gluttony",
+    "value": "Normal"
+   },
+   {
+    "sin": "Gloom",
+    "value": "Ineff"
+   },
+   {
+    "sin": "Pride",
+    "value": "Fatal"
+   },
+   {
+    "sin": "Envy",
+    "value": "Fatal"
+   }
+  ],
+  "awakening": {
+   "name": "Fluid Sac",
+   "sin": "Gloom",
+   "type": "Blunt",
+   "spower": "20",
+   "cpower": "+ 18",
+   "coin": "1",
+   "atkweight": "3",
+   "effects": [
+    "[On Hit] Trigger Tremor Burst\n[On Hit] Deal 25 SP damage\nIf target is Staggered, in Low Morale, or in Panic, deal 30% of damage dealt as bonus damage\n[On Hit] Inflict 2 Sinking"
+   ]
+  },
+  "corrosion": {
+   "name": "Fluid Sac",
+   "sin": "Gloom",
+   "type": "Blunt",
+   "spower": "42",
+   "cpower": "- 25",
+   "coin": "1",
+   "atkweight": "3",
+   "effects": [
+    "[On Hit] Inflict 10 Tremor\n[On Hit] Inflict 10 Sinking\nIf target is NOT Staggered, in Low Morale, nor in Panic, deal 50% of damage dealt as bonus damage"
+   ]
+  },
+  "threadspin": {
+   "awakening": {
+    "3": [
+     "Base Power: 15 > 20",
+     "Coin Effect: [Coin 1] [Heads Hit] > [On Hit] Trigger Tremor Burst [On Hit] Deal 15 > 25 SP damage If target is Staggered, in Low Morale, or in Panic, deal 30% of damage dealt as bonus damage"
+    ],
+    "4": [
+     "Atk Weight: 1 > 3",
+     "Coin Effect: [Coin 1] [On Hit] Inflict 2 Sinking"
+    ]
+   },
+   "corrosion": {
+    "3": [
+     "Base Power: 37 > 42",
+     "Coin Effect: [Coin 1] [On Hit] Inflict 5 > 7 Tremor [On Hit] Inflict 5 > 7 Sinking If target is NOT Staggered, in Low Morale, nor in Panic, deal 50% of damage dealt as bonus damage"
+    ],
+    "4": [
+     "Atk Weight: 1 > 3",
+     "Coin Effect: [Coin 1] [On Hit] Inflict 7 > 10 Tremor [On Hit] Inflict 7 > 10 Sinking"
+    ]
+   }
+  }
+ },
+ {
+  "id": "06-telepole",
+  "name": "Telepole",
+  "page": "Telepole Don Quixote",
+  "quote": "Ho! I shall electrocute them all!!!",
+  "sin": "Envy",
+  "risk": "HE",
+  "releasedate": "2023.03.30",
+  "obtained": "Extraction",
+  "costs": [
+   "Wrath 1",
+   "Gloom 2",
+   "Envy 2"
+  ],
+  "resist": [
+   "Sloth Fatal",
+   "Gluttony Fatal",
+   "Pride Endure",
+   "Envy Ineff"
+  ],
+  "passive": {
+   "name": "Haphazard Discharge",
+   "text": "Combat Start: A random ally that has Charge gains +(Envy A-Reson. / 2) Charge Count"
+  },
+  "skill": {
+   "name": "Telepole",
+   "type": "Pierce",
+   "coin": "1",
+   "effect": "[On Hit] Gain +10 Charge Count\n[Attack End] Give Charge Count to all allies by Envy Reson."
+  },
+  "art": "assets/ego/06-telepole.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/Telepole_Don_Quixote",
+  "note": "Baterai Charge untuk seluruh tim: menyerang dengan Envy, memberi +10 Charge bagi pemakainya, lalu membagikan Charge ke rekan berdasarkan Envy Resonance. Passive-nya menambah Charge ke satu sekutu acak di awal pertempuran.",
+  "abnormality": "Alleyway Watchdog",
+  "asanity": "20",
+  "csanity": "20",
+  "cquote": "",
+  "resist_full": [
+   {
+    "sin": "Wrath",
+    "value": "Normal"
+   },
+   {
+    "sin": "Lust",
+    "value": "Normal"
+   },
+   {
+    "sin": "Sloth",
+    "value": "Fatal"
+   },
+   {
+    "sin": "Gluttony",
+    "value": "Fatal"
+   },
+   {
+    "sin": "Gloom",
+    "value": "Normal"
+   },
+   {
+    "sin": "Pride",
+    "value": "Endure"
+   },
+   {
+    "sin": "Envy",
+    "value": "Ineff"
+   }
+  ],
+  "awakening": {
+   "name": "Telepole",
+   "sin": "Envy",
+   "type": "Pierce",
+   "spower": "18",
+   "cpower": "+ 8",
+   "coin": "1",
+   "atkweight": "3",
+   "effects": [
+    "[On Hit] Gain +10 Charge Count\n[Attack End] Give Charge Count to all allies by Envy Reson."
+   ]
+  },
+  "corrosion": {
+   "name": "Telepole",
+   "sin": "Envy",
+   "type": "Pierce",
+   "spower": "19",
+   "cpower": "+ 10",
+   "coin": "1",
+   "atkweight": "3",
+   "effects": [
+    "[On Hit] Gain +10 Charge Count and 10 Rupture\n[Attack End] Give 5 Fragile, 10 Rupture and +12 Charge Count to all allies"
+   ]
+  },
+  "threadspin": {
+   "awakening": {
+    "3": [
+     "Base Power: 14 > 18",
+     "Coin Effect: [Coin 1] [Heads Hit] Give Charge Count to all allies by Envy Reson."
+    ],
+    "4": [
+     "Atk Weight: 1 > 3",
+     "Coin Effect: [Coin 1] [Heads Hit] > [Attack End] Give Charge Count to all allies by Envy Reson."
+    ]
+   },
+   "corrosion": {
+    "3": [
+     "Base Power: 16 > 19",
+     "Coin Effect: [Coin 1] [Heads Hit] Give +10 Charge Count, 5 Fragile, and 10 Rupture to all allies"
+    ],
+    "4": [
+     "Atk Weight: 1 > 3",
+     "Coin Effect: [Coin 1] [Heads Hit] > [Attack End] Give 5 Fragile, 10 Rupture and +10 > +12 Charge Count to all allies"
+    ]
+   }
+  }
+ },
+ {
+  "id": "02-lifetime-stew",
+  "name": "Lifetime Stew",
+  "page": "Lifetime Stew Don Quixote",
+  "quote": "Salutations!!!!!! I implore thee to try this soup!!!!",
+  "sin": "Lust",
+  "risk": "TETH",
+  "releasedate": "2023.04.20",
+  "obtained": "Hell's Chicken - Coupon Trade-in",
+  "costs": [
+   "Lust 5"
+  ],
+  "resist": [
+   "Lust Ineff",
+   "Sloth Fatal",
+   "Gloom Fatal"
+  ],
+  "passive": {
+   "name": "Cauldron of Gorging",
+   "text": "Turn Start: Convert 2 random non-Lust E.G.O resources into 1 Lust resource"
+  },
+  "skill": {
+   "name": "Lifetime Stew",
+   "type": "Blunt",
+   "coin": "1",
+   "effect": "[On Hit] Inflict +3 Burn Count"
+  },
+  "art": "assets/ego/02-lifetime-stew.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/Lifetime_Stew_Don_Quixote",
+  "note": "E.G.O dari event Hell's Chicken yang sekaligus menambal kebutuhan resource: passive-nya mengubah 2 resource non-Lust menjadi 1 Lust setiap awal turn. Serangannya berbasis Blunt dan menambah 3 Burn Count.",
+  "abnormality": "Basilisoup",
+  "asanity": "20",
+  "csanity": "20",
+  "cquote": "Ewerrgh… H—Have a soupçon…",
+  "resist_full": [
+   {
+    "sin": "Wrath",
+    "value": "Normal"
+   },
+   {
+    "sin": "Lust",
+    "value": "Ineff"
+   },
+   {
+    "sin": "Sloth",
+    "value": "Fatal"
+   },
+   {
+    "sin": "Gluttony",
+    "value": "Normal"
+   },
+   {
+    "sin": "Gloom",
+    "value": "Fatal"
+   },
+   {
+    "sin": "Pride",
+    "value": "Normal"
+   },
+   {
+    "sin": "Envy",
+    "value": "Normal"
+   }
+  ],
+  "awakening": {
+   "name": "Lifetime Stew",
+   "sin": "Lust",
+   "type": "Blunt",
+   "spower": "21",
+   "cpower": "+ 4",
+   "coin": "1",
+   "atkweight": "3",
+   "effects": [
+    "[On Hit] Inflict +3 Burn Count"
+   ]
+  },
+  "corrosion": {
+   "name": "Lifetime Stew",
+   "sin": "Lust",
+   "type": "Blunt",
+   "spower": "22",
+   "cpower": "+ 5",
+   "coin": "1",
+   "atkweight": "3",
+   "effects": [
+    "[On Hit] Inflict +4 Burn Count"
+   ]
+  },
+  "threadspin": {
+   "awakening": {
+    "3": [
+     "Base Power: 18 > 21",
+     "Skill Effects: [Before Attack] Boost damage based on current Lust resources (Up to 25% > 50%)",
+     "Coin Effects: [Coin 1] [On Hit] Inflict +1 > +3 Burn Count"
+    ],
+    "4": [
+     "Atk Weight: 1 > 3"
+    ]
+   },
+   "corrosion": {
+    "3": [
+     "Base Power: 19 > 22",
+     "Skill Effects: [Before Attack] Boost damage based on current Lust resources (Up to 25% > 50%) Then spend Lust resources by (Lust Reson.); further boost damage by 5% > 10% per resource spent",
+     "Coin Effects: [Coin 1] [On Hit] Inflict +2 > +4 Burn Count"
+    ],
+    "4": [
+     "Atk Weight: 1 > 3"
+    ]
+   }
+  }
+ },
+ {
+  "id": "03-wishing-cairn",
+  "name": "Wishing Cairn",
+  "page": "Wishing Cairn Don Quixote",
+  "quote": "Now, let us make our wishes! I wish for this rock to smite thee true and willing!",
+  "sin": "Sloth",
+  "risk": "TETH",
+  "releasedate": "2024.02.15",
+  "obtained": "Extraction",
+  "costs": [
+   "Wrath 2",
+   "Sloth 2",
+   "Pride 1"
+  ],
+  "resist": [
+   "Sloth Ineff",
+   "Gluttony Fatal",
+   "Gloom Fatal"
+  ],
+  "passive": {
+   "name": "Fallen Stone Pagoda",
+   "text": "Gain 2 Poise and +2 Poise Count when defeating an enemy that has Bleed (3 times per turn)"
+  },
+  "skill": {
+   "name": "Wishing Cairn",
+   "type": "Blunt",
+   "coin": "1",
+   "effect": "[On Hit] Inflict +4 Bleed Count\n[On Hit] Inflict 5 Tremor\n[Heads Hit] Inflict 2 Paralyze"
+  },
+  "art": "assets/ego/03-wishing-cairn.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/Wishing_Cairn_Don_Quixote",
+  "note": "Melempar batu berbasis Sloth yang menumpuk Bleed Count, menanam Tremor, dan menyisipkan Paralyze lewat Heads Hit. Passive-nya memberi Poise setiap kali ia membunuh musuh yang berdarah — cocok untuk rantai pembunuhan.",
+  "abnormality": "Pagoda Veneration",
+  "asanity": "20",
+  "csanity": "20",
+  "cquote": "Thou must wish… with all thy heart… Lest misfortune… befall thee…",
+  "resist_full": [
+   {
+    "sin": "Wrath",
+    "value": "Normal"
+   },
+   {
+    "sin": "Lust",
+    "value": "Normal"
+   },
+   {
+    "sin": "Sloth",
+    "value": "Ineff"
+   },
+   {
+    "sin": "Gluttony",
+    "value": "Fatal"
+   },
+   {
+    "sin": "Gloom",
+    "value": "Fatal"
+   },
+   {
+    "sin": "Pride",
+    "value": "Normal"
+   },
+   {
+    "sin": "Envy",
+    "value": "Normal"
+   }
+  ],
+  "awakening": {
+   "name": "Wishing Cairn",
+   "sin": "Sloth",
+   "type": "Blunt",
+   "spower": "18",
+   "cpower": "+ 9",
+   "coin": "1",
+   "atkweight": "3",
+   "effects": [
+    "[On Hit] Inflict +4 Bleed Count\n[On Hit] Inflict 5 Tremor\n[Heads Hit] Inflict 2 Paralyze"
+   ]
+  },
+  "corrosion": {
+   "name": "Wishing Cairn",
+   "sin": "Sloth",
+   "type": "Blunt",
+   "spower": "24",
+   "cpower": "- 10",
+   "coin": "1",
+   "atkweight": "3",
+   "effects": [
+    "[On Crit] Trigger Tremor Burst\n[On Crit] Inflict 8 Bleed\n[Tails Hit] Trigger Tremor Burst\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 2"
+   ]
+  },
+  "threadspin": {
+   "awakening": {
+    "3": [
+     "Coin Effects: [Coin 1] [On Hit] Inflict +3 > +4 Bleed Count [On Hit] Inflict 4 > 5 Tremor [Heads Hit] Inflict 2 Paralyze"
+    ],
+    "4": [
+     "Atk Weight: 1 > 3"
+    ]
+   },
+   "corrosion": {
+    "3": [
+     "Coin Effects: [Coin 1] [On Crit] Inflict 4 > 6 Bleed"
+    ],
+    "4": [
+     "Coin Effects: [Coin 1] [On Crit] Inflict 6 > 8 Bleed"
+    ]
+   }
+  }
+ },
+ {
+  "id": "04-electric-screaming",
+  "name": "Electric Screaming",
+  "page": "Electric Screaming Don Quixote",
+  "quote": "What color do thine eyes behold in this electric spark?!",
+  "sin": "Envy",
+  "risk": "TETH",
+  "releasedate": "2024.04.11",
+  "obtained": "Battle Pass - Level 55 (Free)",
+  "costs": [
+   "Pride 2",
+   "Envy 4"
+  ],
+  "resist": [
+   "Wrath Fatal",
+   "Pride Fatal",
+   "Envy Ineff"
+  ],
+  "passive": {
+   "name": "Tempestuous Screaming",
+   "text": "If the target is defeated at this unit's Slash or Envy Affinity Skill End, gain 1 Attack Power Up next turn (once per turn)"
+  },
+  "skill": {
+   "name": "Electric Screaming",
+   "type": "Pierce",
+   "coin": "1",
+   "effect": "[On Kill] Gain +2 Charge Count"
+  },
+  "art": "assets/ego/04-electric-screaming.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/Electric_Screaming_Don_Quixote",
+  "note": "Serangan Pierce berbiaya Envy yang menghasilkan Charge setiap kali membunuh target. Passive-nya memberi Attack Power Up pada turn berikutnya bila target tumbang oleh skill Slash atau Envy.",
+  "abnormality": "Dreaming Electric Sheep",
+  "asanity": "20",
+  "csanity": "25",
+  "cquote": "Please stop… stop taking things away from me…",
+  "resist_full": [
+   {
+    "sin": "Wrath",
+    "value": "Fatal"
+   },
+   {
+    "sin": "Lust",
+    "value": "Normal"
+   },
+   {
+    "sin": "Sloth",
+    "value": "Normal"
+   },
+   {
+    "sin": "Gluttony",
+    "value": "Normal"
+   },
+   {
+    "sin": "Gloom",
+    "value": "Normal"
+   },
+   {
+    "sin": "Pride",
+    "value": "Fatal"
+   },
+   {
+    "sin": "Envy",
+    "value": "Ineff"
+   }
+  ],
+  "awakening": {
+   "name": "Electric Screaming",
+   "sin": "Envy",
+   "type": "Pierce",
+   "spower": "19",
+   "cpower": "+ 8",
+   "coin": "1",
+   "atkweight": "2",
+   "effects": [
+    "[On Kill] Gain +2 Charge Count"
+   ]
+  },
+  "corrosion": {
+   "name": "Electric Screaming",
+   "sin": "Envy",
+   "type": "Pierce",
+   "spower": "28",
+   "cpower": "- 12",
+   "coin": "1",
+   "atkweight": "2",
+   "effects": [
+    "[On Kill] Gain +3 Charge Count"
+   ]
+  },
+  "threadspin": {
+   "awakening": {
+    "3": [
+     "Skill Effects: [Before Attack] Gain (Envy Reson. - 2) Atk Weight (max 1 > 2) [Before Attack] Deal +((Envy Reson. - 3) x 5)% damage (max 15%) [Before Attack] If this unit has 20+ Charge Count, Spend 20 Charge Count to deal +30% > +35% damage"
+    ],
+    "4": [
+     "Skill Effects: [Before Attack] Gain (Envy Reson. - 2) Atk Weight (max 2 > 3) [Before Attack] Deal +(Envy Reson. - 3) x 5 > 10)% damage (max 15% > 30%) [Before Attack] If this unit has 20+ Charge Count, Spend 20 Charge Count to deal +35% > +40% damage"
+    ]
+   },
+   "corrosion": {
+    "3": [
+     "Skill Effects: [Before Attack] Gain (Envy Reson. - 2) Atk Weight (max 1 > 2) [Before Attack] Deal +(Envy Reson. - 3) x 5 > 8)% damage (max 15% > 24%) [Before Attack] Spend up to 20 Charge Count to deal +2.5% > +3.5% damage for every spent Charge Count (max 50% > 70%)"
+    ],
+    "4": [
+     "Skill Effects: [Before Attack] Gain (Envy Reson. - 2) Atk Weight (max 2 > 3) [Before Attack] Deal +(Envy Reson. - 3) x 8 > 12)% damage (max 24% > 36%) [Before Attack] At less than 20 Charge Count, spend 1.5% > 1% of this unit's max HP per missing Charge Count to raise Charge Count up to 20 [Before Attack] Spend up to 20 Charge Count to deal +3.5% > +5% damage for every spent Charge Count (max 70% > 100%)"
+    ]
+   }
+  }
+ },
+ {
+  "id": "10-yearning-mircalla",
+  "name": "Yearning-Mircalla",
+  "page": "Yearning-Mircalla Don Quixote",
+  "quote": "Steeped in the blood of all… yes…!\nBlossom in euphoria, blossom! Oh, blossom!",
+  "sin": "Lust",
+  "risk": "WAW",
+  "releasedate": "2024.10.24",
+  "obtained": "Battle Pass - Level 120 (Paid)",
+  "costs": [
+   "Lust 5",
+   "Gluttony 3",
+   "Pride 2",
+   "Envy 2"
+  ],
+  "resist": [
+   "Lust Ineff",
+   "Sloth Fatal",
+   "Gluttony Ineff",
+   "Gloom Fatal",
+   "Pride Endure"
+  ],
+  "passive": {
+   "name": "Spiring Crimson Blossom",
+   "text": "Every time 10+ Bleed damage occurs, heal 1 SP on self (10 per turn)"
+  },
+  "skill": {
+   "name": "Yearning - Mircalla",
+   "type": "Pierce",
+   "coin": "4",
+   "effect": "Unbreakable Coin\nDeal +0.1% damage for every Bloodfeast Consumed (shared) (max 10%)"
+  },
+  "art": "assets/ego/10-yearning-mircalla.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/Yearning-Mircalla_Don_Quixote",
+  "note": "E.G.O WAW dengan empat coin yang tumbuh seiring Bloodfeast yang tersedot — makanya paling bersinar di komposisi Bleed. Passive-nya memulihkan SP setiap kali 10+ damage Bleed terjadi.",
+  "abnormality": "Four-hundred Roses",
+  "asanity": "15",
+  "csanity": "40",
+  "cquote": "You do not know of our thirst! I'll take your blood if I must…\nand… and blossom… its crimson ever more profound!",
+  "resist_full": [
+   {
+    "sin": "Wrath",
+    "value": "Normal"
+   },
+   {
+    "sin": "Lust",
+    "value": "Ineff"
+   },
+   {
+    "sin": "Sloth",
+    "value": "Fatal"
+   },
+   {
+    "sin": "Gluttony",
+    "value": "Ineff"
+   },
+   {
+    "sin": "Gloom",
+    "value": "Fatal"
+   },
+   {
+    "sin": "Pride",
+    "value": "Endure"
+   },
+   {
+    "sin": "Envy",
+    "value": "Normal"
+   }
+  ],
+  "awakening": {
+   "name": "Yearning - Mircalla",
+   "sin": "Lust",
+   "type": "Pierce",
+   "spower": "3",
+   "cpower": "+ 3",
+   "coin": "4",
+   "atkweight": "7",
+   "effects": [
+    "Unbreakable Coin\nDeal +0.1% damage for every Bloodfeast Consumed (shared) (max 10%)",
+    "Unbreakable Coin\nAt 100+ Bloodfeast Consumed (shared): deal +0.1% damage for every value (max 20%)",
+    "Unbreakable Coin\nAt 200+ Bloodfeast Consumed (shared): deal +0.1% damage for every value (max 30%)",
+    "Unbreakable Coin\nAt 300+ Bloodfeast Consumed (shared): deal +0.1% damage for every value (max 50%)\n[Hit after Clash Win] Inflict Polydipsic Rose based on the highest Lust A-Reson. (max 4)"
+   ]
+  },
+  "corrosion": {
+   "name": "Yearning - Mircalla",
+   "sin": "Lust",
+   "type": "Pierce",
+   "spower": "30",
+   "cpower": "- 10",
+   "coin": "2",
+   "atkweight": "7",
+   "effects": [
+    "[On Hit] Inflict 1 Bleed for every 50 Bloodfeast Consumed (shared) (max 10)\n[On Hit] At 100- Bloodfeast, inflict 10 Bleed",
+    "Deal +20% damage for every 100 Bloodfeast Consumed (shared) (max 100%)\n[Hit after Clash Win] Inflict Polydipsic Rose based on the highest Lust A-Reson. (max 5)\n[Hit after Clash Win] Heal by 50% of the HP damage dealt (max 10)"
+   ]
+  },
+  "threadspin": {
+   "awakening": {
+    "3": [
+     "Skill Effects: If target has 10+ Bleed, Coin Power +1 Clash Power +1 for every 100 Bloodfeast Consumed by this unit (max 2 > 3) [Before Attack] At less than 50 > 75 Bloodfeast, inflict 1 Bleed with every Hit",
+     "Coin Effects: [Coin 2] At 100+ Bloodfeast Consumed (shared): deal +0.1% damage for every value (max 10% > 15%) [Coin 3] At 200+ Bloodfeast Consumed (shared): deal +0.1% damage for every value (max 20% > 25%) [Coin 4] At 300+ Bloodfeast Consumed (shared): deal +0.1% damage for every value (max 30% > 40%)"
+    ],
+    "4": [
+     "Atk Weight: 5 > 7",
+     "Skill Effects: If target has 10+ Bleed, Coin Power +1 > Coin Power +1 for every 10 Bleed on target (max 2) Clash Power +1 for every 100 Bloodfeast Consumed by this unit (max 3 > 5) [Before Attack] At less than 75 > 100 Bloodfeast, inflict 1 Bleed with every Hit",
+     "Coin Effects: [Coin 2] At 100+ Bloodfeast Consumed (shared): deal +0.1% damage for every value (max 15% > 20%) [Coin 3] At 200+ Bloodfeast Consumed (shared): deal +0.1% damage for every value (max 25% > 30%) [Coin 4] At 300+ Bloodfeast Consumed (shared): deal +0.1% damage for every value (max 40% > 50%) [Hit after Clash Win] Inflict Polydipsic Rose based on the highest Lust A-Reson. (max 3 > 4)"
+    ]
+   },
+   "corrosion": {
+    "3": [
+     "Skill Effects: At 200+ Bloodfeast Consumed by this unit, Coin Power -1",
+     "Coin Effects: [Coin 2] Deal +5% > +10% damage for every 100 Bloodfeast Consumed (shared) (max 25% > 50%) [Hit after Clash Win] Inflict Polydipsic Rose based on the highest Lust A-Reson. (max 3 > 4)"
+    ],
+    "4": [
+     "Atk Weight: 5 > 7",
+     "Coin Effects: [Coin 2] Deal +10% > +20% damage for every 100 Bloodfeast Consumed (shared) (max 50% > 100%) [Hit after Clash Win] Inflict Polydipsic Rose based on the highest Lust A-Reson. (max 4 > 5)"
+    ]
+   }
+  }
+ },
+ {
+  "id": "07-red-sheet",
+  "name": "Red Sheet",
+  "page": "Red Sheet Don Quixote",
+  "quote": "Heheh! Thou art quite full of wishes… Which of them dost thou desire to see come true?!",
+  "sin": "Gluttony",
+  "risk": "HE",
+  "releasedate": "2025.05.22",
+  "obtained": "Battle Pass -\nLevel 30 (Free)",
+  "costs": [
+   "Lust 1",
+   "Gluttony 5",
+   "Gloom 2",
+   "Pride 1"
+  ],
+  "resist": [
+   "Wrath Fatal",
+   "Lust Endure",
+   "Pride Fatal",
+   "Envy Ineff"
+  ],
+  "passive": {
+   "name": "Enfeebling Talisman",
+   "text": "On Hit with this unit's Skills: if the target either has 15+ Rupture, or if this unit dealt a Critical Hit, inflict 1 Defense Level Down (max 6)\n- When this Passive activates, its effects do not stack with the effects of E.G.O Gift \"Old Wooden Doll\"."
+  },
+  "skill": {
+   "name": "Red Sheet",
+   "type": "Slash",
+   "coin": "2",
+   "effect": "[On Hit] Inflict (4 + Gluttony Reson.) Twisted Curse Talisman (max 10)"
+  },
+  "art": "assets/ego/07-red-sheet.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/Red_Sheet_Don_Quixote",
+  "note": "Menebar Twisted Curse Talisman berbasis Gluttony yang jumlahnya bertambah mengikuti Gluttony Resonance. Passive-nya memperlemah musuh yang sudah menumpuk 15+ Rupture atau yang terkena Critical Hit.",
+  "abnormality": "So That No One Will Cry",
+  "asanity": "25",
+  "csanity": "30",
+  "cquote": "Hooh… hopes, desires, all of these afflictions shall be broken…! And I shall liberate thee from their yoke!",
+  "resist_full": [
+   {
+    "sin": "Wrath",
+    "value": "Fatal"
+   },
+   {
+    "sin": "Lust",
+    "value": "Endure"
+   },
+   {
+    "sin": "Sloth",
+    "value": "Normal"
+   },
+   {
+    "sin": "Gluttony",
+    "value": "Normal"
+   },
+   {
+    "sin": "Gloom",
+    "value": "Normal"
+   },
+   {
+    "sin": "Pride",
+    "value": "Fatal"
+   },
+   {
+    "sin": "Envy",
+    "value": "Ineff"
+   }
+  ],
+  "awakening": {
+   "name": "Red Sheet",
+   "sin": "Gluttony",
+   "type": "Slash",
+   "spower": "16",
+   "cpower": "+ 4",
+   "coin": "2",
+   "atkweight": "3",
+   "effects": [
+    "[On Hit] Inflict (4 + Gluttony Reson.) Twisted Curse Talisman (max 10)",
+    "Deal +5% damage for every Twisted Curse Talisman on target (max 50%)\n[On Hit] Inflict (Twisted Curse Talisman on target / 2) Rupture (max 4, rounded down)\n[On Hit] Inflict +(Twisted Curse Talisman on target / 4) Rupture Count (max 2, rounded down)"
+   ]
+  },
+  "corrosion": {
+   "name": "Red Sheet",
+   "sin": "Gluttony",
+   "type": "Slash",
+   "spower": "26",
+   "cpower": "- 10",
+   "coin": "2",
+   "atkweight": "3",
+   "effects": [
+    "[On Hit] Inflict (6 + Gluttony Reson.) Twisted Curse Talisman (max 10)",
+    "Deal +10% damage for every Twisted Curse Talisman on target (max 100%)\n[On Hit] Inflict (Twisted Curse Talisman on target / 2) Rupture (max 4, rounded down)\n[On Hit] Inflict +(Twisted Curse Talisman on target / 3) Rupture Count (max 2, rounded down)"
+   ]
+  },
+  "threadspin": {
+   "awakening": {
+    "3": [
+     "Coin Effects: [Coin 2] Deal +3% damage for every Twisted Curse Talisman on target (max 30%)"
+    ],
+    "4": [
+     "Coin Effects: [Coin 2] Deal +3% > +5% damage for every Twisted Curse Talisman on target (max 30% > 50%) [On Hit] Inflict (Twisted Curse Talisman on target / 2) Rupture (max 3 > 4, rounded down)"
+    ]
+   },
+   "corrosion": {
+    "3": [
+     "Coin Effects: [Coin 2] Deal +5% > +10% damage for every Twisted Curse Talisman on target (max 50% > 100%)"
+    ],
+    "4": [
+     "Coin Effects: [Coin 2] [On Hit] Inflict (Twisted Curse Talisman on target / 2) Rupture (max 3 > 4, rounded down)"
+    ]
+   }
+  }
+ },
+ {
+  "id": "09-love-and-hate",
+  "name": "In the Name of Love and Hate",
+  "page": "In the Name of Love and Hate Don Quixote",
+  "quote": "Heed me, thou that art more azure than justice and more crimson than love…\nIn the name of those buried in destiny… I shall make this oath to the light.\nMark the hateful beings who stand before us…\nLet your strength merge with mine, so that we may deliver the power of love to all…\nARCANA SLAVE!",
+  "sin": "Envy",
+  "risk": "WAW",
+  "releasedate": "2025.07.17",
+  "obtained": "Extraction",
+  "costs": [
+   "Wrath 2",
+   "Gloom 2",
+   "Pride 2",
+   "Envy 6"
+  ],
+  "resist": [
+   "Wrath Ineff",
+   "Lust Fatal",
+   "Gluttony Fatal",
+   "Pride Ineff",
+   "Envy Endure"
+  ],
+  "passive": {
+   "name": "Arcana Aptitude Circuit",
+   "text": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count\n- If this unit already gains Charge by consuming Charge Count on self, this effect does not stack with that effect\n- This unit's Base Attack Skills that consume Charge Count: deal +5% damage for every Charge on self (max 25%)\nIf this unit is Lobotomy E.G.O::In the Name of Love and Hate Don Quixote, gain 1 additional Skill 3 use"
+  },
+  "skill": {
+   "name": "In the Name of Love and Hate - Major Arcana Slave!!!",
+   "type": "Blunt",
+   "coin": "2",
+   "effect": "Unbreakable Coin\n[On Hit] Gain +2 Charge Count (10 per turn)"
+  },
+  "art": "assets/ego/09-love-and-hate.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/In_the_Name_of_Love_and_Hate_Don_Quixote",
+  "note": "E.G.O WAW warisan Queen of Hatred: serangan Blunt dua coin yang mengumpulkan Charge hingga 10 per turn. Passive-nya memberi Charge tambahan setiap 10 Charge yang dipakai, mempercepat siklus serangnya.",
+  "abnormality": "The Queen of Hatred",
+  "asanity": "30",
+  "csanity": "30",
+  "cquote": "To those hateful beings that stand before my path…\nNngh… beings that are neither good nor evil, beings that deserve to be purged…\nI shall show them the great power of love…\nHah. None of this matters. Someone has to fill the role of villain. And that's you.\nI am the chosen one… I'm not like you… I'm different!!!",
+  "resist_full": [
+   {
+    "sin": "Wrath",
+    "value": "Ineff"
+   },
+   {
+    "sin": "Lust",
+    "value": "Fatal"
+   },
+   {
+    "sin": "Sloth",
+    "value": "Normal"
+   },
+   {
+    "sin": "Gluttony",
+    "value": "Fatal"
+   },
+   {
+    "sin": "Gloom",
+    "value": "Normal"
+   },
+   {
+    "sin": "Pride",
+    "value": "Ineff"
+   },
+   {
+    "sin": "Envy",
+    "value": "Endure"
+   }
+  ],
+  "awakening": {
+   "name": "In the Name of Love and Hate - Major Arcana Slave!!!",
+   "sin": "Envy",
+   "type": "Blunt",
+   "spower": "16",
+   "cpower": "+ 5",
+   "coin": "2",
+   "atkweight": "5",
+   "effects": [
+    "Unbreakable Coin\n[On Hit] Gain +2 Charge Count (10 per turn)",
+    "Unbreakable Coin\n[On Hit] Inflict Mark of Villainy against the main target next turn\n[On Hit] Inflict (Charge - 1) Rupture (max 4)\n- If this unit has Here Comes Magical Girl!, inflict +1 Rupture Count"
+   ]
+  },
+  "corrosion": {
+   "name": "Maximized Reversed Arcana Slave - Erasure of Hatred",
+   "sin": "Envy",
+   "type": "Blunt",
+   "spower": "31",
+   "cpower": "- 12",
+   "coin": "2",
+   "atkweight": "5",
+   "effects": [
+    "Unbreakable Coin\n[On Hit] Gain +2 Charge Count (14 per turn)",
+    "Unbreakable Coin\n[On Hit] Inflict Mark of Villainy against the main target next turn\n[On Hit] Inflict (Charge - 1) Sinking (max 4)\n- If this unit has Regressive Transformation - Reversed, inflict +1 Sinking Count"
+   ]
+  },
+  "threadspin": {
+   "awakening": {
+    "3": [
+     "Skill Effects: [Before Attack] Apply 1 Magical Girl's Chant to (1 + (Envy Reson. / 3)) random other allies (max 3 allies) - If this unit has Here Comes Magical Girl!, apply 2 Magical Girl's Chant to (1 + (Envy Reson. / 3)) random other allies instead (max 3 allies) [Before Attack] Gain +(Charge - 1) Atk Weight (max 3 > 5) [Attack End] Consume all Charge Count on self to heal (2 + (Envy Reson. / 2)) allies with the least HP percentages by (Charge Count consumed)% HP (max 5 allies, max 5% > 8%)",
+     "Coin Effects: [Coin 2] [On Hit] Inflict (Charge - 1) Rupture (max 2 > 3)"
+    ],
+    "4": [
+     "Skill Effects: [Before Attack] Apply 1 Magical Girl's Chant to (1 + (Envy Reson. / 3 > 2)) random other allies (max 3 > 4 allies) - If this unit has Here Comes Magical Girl!, apply 2 Magical Girl's Chant to (1 + (Envy Reson. / 3 > 2)) random other allies instead (max 3 > 4 allies) [Before Attack] Gain +(Charge - 1) Atk Weight (max 5) - If this unit has Here Comes Magical Girl!, gain +(Charge) Atk Weight instead (max 5) [Attack End] Consume all Charge Count on self to heal (2 + (Envy Reson. / 2)) allies with the least HP percentages by (Charge Count consumed)% HP (max 5 allies, max 8% > 10%)",
+     "Coin Effects: [Coin 1] [On Hit] Gain +1 > +2 Charge Count (5 > 10 per turn) [Coin 2] [Heads Hit] > [On Hit] Inflict Mark of Villainy against the main target next turn [On Hit] Inflict (Charge - 1) Rupture (max 3 > 4) - If this unit has Here Comes Magical Girl!, inflict +1 Rupture Count"
+    ]
+   },
+   "corrosion": {
+    "3": [
+     "Skill Effects: [Before Attack] Gain +(Charge) Atk Weight (max 5) - If this unit has Regressive Transformation - Reversed, gain +(Charge + 1) Atk Weight instead (max 5) [Before Attack] Consume all Charge Count and deal +1% > +2% more damage for every Charge Count consumed (max 20% > 40%) [Before Attack] If the main target has Mark of Villainy, deal +3% > +5% damage for every Charge (max 15% > 25%) - If this unit has Hysteria, deal +7% damage for every Charge instead (max 35%) [Before Attack] Deal +5% > +7% damage for every 3 > 2 Envy Reson. (max 10% > 21%, rounded down)",
+     "Coin Effects: [Coin 1] [On Hit] Gain +2 Charge Count (7 > 10 times per turn) [Coin 2] [On Hit] Inflict (Charge - 1) Sinking (max 2 > 3)"
+    ],
+    "4": [
+     "Skill Effects: [Before Attack] Consume all Charge Count and deal +2% > +2.5% more damage for every Charge Count consumed (max 40% > 50%) [Before Attack] If the main target has Mark of Villainy, deal +5% damage for every Charge (max 25%) - If this unit has Hysteria, deal +7% > +10% damage for every Charge instead (max 35% > 50%) [Before Attack] Deal +7% > +10% damage for every 2 Envy Reson. (max 21% > 30%, rounded down)",
+     "Coin Effects: [Coin 1] [On Hit] Gain +2 Charge Count (10 > 14 times per turn) [Coin 2] [Tails Hit] > [On Hit] Inflict Mark of Villainy against the main target next turn [On Hit] Inflict (Charge - 1) Sinking (max 3 > 4) - If this unit has Regressive Transformation - Reversed, inflict +1 Sinking Count"
+    ]
+   }
+  }
+ },
+ {
+  "id": "08-scissors",
+  "name": "I'll Go fer Scissors. How 'Bout You?",
+  "page": "I'll Go fer Scissors. How 'Bout You? Don Quixote",
+  "quote": "Thou hast lost! Now, rules are rules… Thus forfeit thine arm anon!",
+  "sin": "Envy",
+  "risk": "ZAYIN",
+  "releasedate": "2026.08.06",
+  "obtained": "Extraction",
+  "costs": [
+   "Envy 5"
+  ],
+  "resist": [
+   "Sloth Fatal",
+   "Gloom Fatal",
+   "Envy Endure"
+  ],
+  "passive": {
+   "name": "'Tis Thy Turn to Swallow the Needle!",
+   "text": "Envy Skills deal +10% damage\n- Said Skills deal +1% more damage for every 1 Envy Reson. (max 7%)\nTurn Start: Gain Offense Level Up equal to (cumulative HP damage taken by this unit in this Encounter (including Shield damage) / 20) (max 3)\nCombat Start: On Envy A-Reson., inflict 1 Needle to all enemies (in Focused Encounters, all Parts)"
+  },
+  "skill": {
+   "name": "I'll Go fer Scissors. How 'Bout You?",
+   "type": "Slash",
+   "coin": "1",
+   "effect": "Unbreakable Coin\n[Hit After Clash Win] Inflict 1 Power Down next turn (once per turn per target)\n[On Hit] Inflict 4 Bleed"
+  },
+  "art": "assets/ego/08-scissors.webp",
+  "wiki": "https://limbuscompany.wiki.gg/wiki/I%27ll_Go_fer_Scissors._How_%27Bout_You%3F_Don_Quixote",
+  "note": "E.G.O Envy paling baru (Agustus 2026): memberi Power Down saat menang clash dan menumpuk efek tambahan pada hit. Passive-nya menaikkan damage skill Envy hingga +10%, bertambah lagi mengikuti Envy Resonance.",
+  "abnormality": "Will You Play?",
+  "asanity": "20",
+  "csanity": "20",
+  "cquote": "A friend! A friend is here!\nLook, I'm… I'm gonna play scissors, what will you play?",
+  "resist_full": [
+   {
+    "sin": "Wrath",
+    "value": "Normal"
+   },
+   {
+    "sin": "Lust",
+    "value": "Normal"
+   },
+   {
+    "sin": "Sloth",
+    "value": "Fatal"
+   },
+   {
+    "sin": "Gluttony",
+    "value": "Normal"
+   },
+   {
+    "sin": "Gloom",
+    "value": "Fatal"
+   },
+   {
+    "sin": "Pride",
+    "value": "Normal"
+   },
+   {
+    "sin": "Envy",
+    "value": "Endure"
+   }
+  ],
+  "awakening": {
+   "name": "I'll Go fer Scissors. How 'Bout You?",
+   "sin": "Envy",
+   "type": "Slash",
+   "spower": "12",
+   "cpower": "+ 12",
+   "coin": "1",
+   "atkweight": "3",
+   "effects": [
+    "Unbreakable Coin\n[Hit After Clash Win] Inflict 1 Power Down next turn (once per turn per target)\n[On Hit] Inflict 4 Bleed"
+   ]
+  },
+  "corrosion": {
+   "name": "I'll Go fer Scissors. How 'Bout You?",
+   "sin": "Envy",
+   "type": "Slash",
+   "spower": "4",
+   "cpower": "+ 4",
+   "coin": "3",
+   "atkweight": "3",
+   "effects": [
+    "Unbreakable Coin",
+    "Unbreakable Coin",
+    "Unbreakable Coin\n[On Hit] Inflict 1 Power Down next turn (once per turn per target)\n[On Hit] Inflict 6 Bleed"
+   ]
+  },
+  "threadspin": {
+   "awakening": {
+    "3": [
+     "Skill Effects: [Attack End After Clash Win] Heal 2% > 4% HP and 5 SP each for (2 + Envy Reson. / 2) allies that have the lowest current HP percentages (max 3 > 4 units) [Clash Lose] Gain (Envy Reson. x 5) Shield (max 20 > 25) [Clash Lose] Deal +100% > +150% damage to the main target"
+    ],
+    "4": [
+     "Skill Effects: [Attack End After Clash Win] Heal 4% > 6% HP and 5 SP each for (2 + Envy Reson. / 2) allies that have the lowest current HP percentages (max 4 units) [Clash Lose] Gain (Envy Reson. x 5) Shield (max 25 > 30) [Clash Lose] Deal +150% > +200% damage to the main target"
+    ]
+   },
+   "corrosion": {
+    "3": [
+     "Skill Effects: At 2+ Envy Reson., Final Power +1 > Final Power +1 for every 2 Envy Reson. (max 2) [Clash Win] Deal +60% > +80% damage to the main target [Clash Lose] Gain Shield equal to (Envy Reson. x 5) (max 20 > 25)"
+    ],
+    "4": [
+     "Skill Effects: Final Power +1 for every 2 Envy Reson. (max 2 > 3) [Clash Win] Deal +80% > +100% damage to the main target [Clash Lose] Gain Shield equal to (Envy Reson. x 5) (max 25 > 30)"
+    ]
+   }
+  }
+ }
+]
